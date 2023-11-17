@@ -1,0 +1,350 @@
+1
+while w;
+Select w pattern w(_,_)
+37, 8, 95, 57, 54, 134, 110, 75, 66, 131, 67, 102, 25, 30, 92, 20, 80, 13, 135, 103, 19, 59
+5000
+2
+while w; variable v;
+Select w pattern w(v,_)
+37, 8, 95, 57, 54, 134, 110, 75, 66, 131, 67, 102, 25, 30, 92, 20, 80, 13, 135, 103, 19, 59
+5000
+3
+while w; variable v;
+Select v pattern w(v,_)
+while, zzz, koi, jk, pattern, x, abdefg, if, po, Pattern, pie, Yyy, p, i, h, n, d, g, pop, xx, hte, cd, eg, call, w, bo, y, good, bye, yyY, ab
+5000
+4
+while w; variable v;
+Select <w, v> pattern w(v,_)
+75 po, 66 jk, 66 eg, 19 pattern, 25 p, 13 while, 92 koi, 66 cd, 59 xx, 135 x, 131 abdefg, 30 call, 20 Pattern, 75 bo, 54 zzz, 103 while, 80 zzz, 66 ab, 102 g, 8 while, 103 h, 103 i, 57 pop, 110 n, 59 pie, 134 y, 67 hte, 25 w, 54 xx, 67 good, 57 bye, 37 yyY, 37 Yyy, 95 d, 8 call, 8 if
+5000
+5
+while w;
+Select w pattern w("if",_)
+8
+5000
+6
+while w;
+Select w pattern w("while",_)
+8, 13, 103
+5000
+7
+while w;
+Select w pattern w("call",_)
+8, 30
+5000
+8
+while w;
+Select w pattern w("pattern",_)
+19
+5000
+9
+while w;
+Select w pattern w("Pattern",_)
+20
+5000
+10
+while w;
+Select w pattern w("w",_)
+25
+5000
+11
+while w;
+Select w pattern w("p",_)
+25
+5000
+12
+while w;
+Select w pattern w("Yyy",_)
+37
+5000
+13
+while w;
+Select w pattern w("yyY",_)
+37
+5000
+14
+while w;
+Select w pattern w("zzz",_)
+54, 80
+5000
+15
+while w;
+Select w pattern w("pop",_)
+57
+5000
+16
+while w;
+Select w pattern w("bye",_)
+57
+5000
+17
+while w;
+Select w pattern w("pie",_)
+59
+5000
+18
+while w;
+Select w pattern w("xx",_)
+54, 59
+5000
+19
+while w;
+Select w pattern w("ab",_)
+66
+5000
+20
+while w;
+Select w pattern w("cd",_)
+66
+5000
+21
+while w;
+Select w pattern w("eg",_)
+66
+5000
+22
+while w;
+Select w pattern w("jk",_)
+66
+5000
+23
+while w;
+Select w pattern w("good",_)
+67
+5000
+24
+while w;
+Select w pattern w("d",_)
+95
+5000
+25
+while w;
+Select w pattern w("g",_)
+102
+5000
+26
+while w;
+Select w pattern w("h",_)
+103
+5000
+27
+while w;
+Select w pattern w("i",_)
+103
+5000
+28
+while w;
+Select w pattern w("n",_)
+110
+5000
+29
+while w;
+Select w pattern w("abdefg",_)
+131
+5000
+30
+while w;
+Select w pattern w("y",_)
+134
+5000
+31
+while w;
+Select w pattern w("x",_)
+135
+5000
+32
+while w;
+Select w pattern w("nonexistent",_)
+none
+5000
+33
+while w; stmt s;
+Select BOOLEAN pattern w("while",s)
+SyntaxError
+5000
+34
+while w; stmt s;
+Select BOOLEAN pattern w(_,s)
+SyntaxError
+5000
+35
+while w; variable v; stmt s;
+Select BOOLEAN pattern w(v,s)
+SyntaxError
+5000
+36
+while w; read r;
+Select BOOLEAN pattern w("if",r)
+SyntaxError
+5000
+37
+while w; read r;
+Select BOOLEAN pattern w(_,r)
+SyntaxError
+5000
+38
+while w; variable v; read r;
+Select BOOLEAN pattern w(v,r)
+SyntaxError
+5000
+39
+while w; print pn;
+Select BOOLEAN pattern w("pop",pn)
+SyntaxError
+5000
+40
+while w; print pn;
+Select BOOLEAN pattern w(_,pn)
+SyntaxError
+5000
+41
+while w; variable v; print pn;
+Select BOOLEAN pattern w(v,pn)
+SyntaxError
+5000
+42
+while w; assign a;
+Select BOOLEAN pattern w(_,a)
+SyntaxError
+5000
+43
+while w; assign a;
+Select BOOLEAN pattern w("while",a)
+SyntaxError
+5000
+44
+while w; variable v; assign a;
+Select BOOLEAN pattern w(v,a)
+SyntaxError
+5000
+45
+while w; if ifs;
+Select BOOLEAN pattern w(_,ifs)
+SyntaxError
+5000
+46
+while w; if ifs;
+Select BOOLEAN pattern w("While",a)
+SyntaxError
+5000
+47
+while w; variable v; if ifs;
+Select BOOLEAN pattern w(v,ifs)
+SyntaxError
+5000
+48
+while w; while w1;
+Select BOOLEAN pattern w(_,w1)
+SyntaxError
+5000
+49
+while w; while w1;
+Select BOOLEAN pattern w("g",w1)
+SyntaxError
+5000
+50
+while w; variable v; while w1;
+Select BOOLEAN pattern w(v,w1)
+SyntaxError
+5000
+51
+while w; call cal;
+Select BOOLEAN pattern w(_,cal)
+SyntaxError
+5000
+52
+while w; variable v; call cal;
+Select BOOLEAN pattern w(v,cal)
+SyntaxError
+5000
+53
+while w; call cal;
+Select BOOLEAN pattern w("ab",cal)
+SyntaxError
+5000
+54
+while w; prog_line pl;
+Select BOOLEAN pattern w(_,pl)
+SyntaxError
+5000
+55
+while w; procedure p;
+Select BOOLEAN pattern w("cd",p)
+SyntaxError
+5000
+56
+while w; procedure p;
+Select BOOLEAN pattern w(_,p)
+SyntaxError
+5000
+57
+while w; variable v; procedure p;
+Select BOOLEAN pattern w(v,p)
+SyntaxError
+5000
+58
+while w; variable v;
+Select BOOLEAN pattern w(_,v)
+SyntaxError
+5000
+59
+while w; variable v;
+Select BOOLEAN pattern w("jk",v)
+SyntaxError
+5000
+60
+while w; constant c;
+Select BOOLEAN pattern w("d",c)
+SyntaxError
+5000
+61
+while w; variable v; variable v1;
+Select BOOLEAN pattern w(v,v1)
+SyntaxError
+5000
+62
+while w; constant c;
+Select BOOLEAN pattern w(_,c)
+SyntaxError
+5000
+63
+while w; variable v; constant c;
+Select BOOLEAN pattern w(v,c)
+SyntaxError
+5000
+64
+while w;
+Select BOOLEAN pattern w(_,"n")
+SemanticError
+5000
+65
+while w;
+Select BOOLEAN pattern w("h","i")
+SemanticError
+5000
+66
+while w; variable v;
+Select BOOLEAN pattern w(v,"while")
+SemanticError
+5000
+67
+while w;
+Select w pattern w()
+SyntaxError
+5000
+68
+while w;
+Select w pattern w(_)
+SyntaxError
+5000
+69
+while w;
+Select w pattern w(_,_,_)
+SemanticError
+5000
+70
+while w;
+Select w pattern w(_,_,_,_)
+SyntaxError
+5000

@@ -1,0 +1,64 @@
+procedure one {
+    abdefg = 500000000000;
+    y = 100;
+    read x;
+    read YYYY;
+    while (abdefg >= 0) {
+        if (0 <= 3) then {
+            print x;
+            call two;
+	    while (y >= 5) {
+                while (x < 1000000000000000000000000000000) {
+                    y = y + 10;
+                    if (! ((a < b) || ((c == 4) && (d != e))) ) then {
+                        print d;
+                        call three;
+                        call four;
+                    } else {
+                        read l;
+                    }
+		}
+            }
+        } else {
+            x = 10234;
+        }
+        x = YYYY % 1;
+    }
+}
+
+procedure two {
+    if (
+    !((p < q) || (r == 4))
+    ) then {
+        read while;
+        read print;
+        while (while < 3) { 
+            print print;
+        }
+    } else {
+        z = q * 1+3;
+        call three;
+    }
+}
+
+procedure three {
+    print j;
+    if (j < (q + 1)) then {
+        j = j + q;
+    } else {
+        q = q - z%3 + 5 * (9 + x)     ;
+    }
+}
+
+procedure four {
+    read i;
+}
+
+
+procedure five {
+    call three;
+}
+
+procedure six {
+    call one;
+}

@@ -1,0 +1,115 @@
+1
+stmt s, s1; assign a, a1; print pn, pn1; procedure p; variable v; read r, r1;
+Select s such that Follows(s , a) and Follows(a, pn) with r.varName = "t" such that Follows(r1, pn1) pattern a(v, _)
+117, 207, 136
+5000
+2
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v; read r, r1;
+Select s such that Follows(s , a) and Follows(a2, pn) with r.varName = "t" such that Follows(r1, pn1) pattern a1(v, _"y"_)
+1, 9, 210, 131, 129, 226, 201, 250, 5, 33, 4, 130, 164, 195, 203, 144, 247, 21, 233, 24, 38, 216, 252, 30, 222, 34, 161, 225, 230, 50, 232, 117, 53, 186, 120, 228, 127, 136, 199, 168, 173, 188, 204, 238, 205, 206, 207, 217, 227, 240, 231, 234, 246
+5000
+3
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v; read r, r1;
+Select s such that Follows(s , a) and Follows(a2, pn) with r.varName = "t" such that Follows(r1, pn1) pattern a1(v, _"x"_)
+1, 9, 210, 131, 129, 226, 201, 250, 5, 33, 4, 130, 164, 195, 203, 144, 247, 21, 233, 24, 38, 216, 252, 30, 222, 34, 161, 225, 230, 50, 232, 117, 53, 186, 120, 228, 127, 136, 199, 168, 173, 188, 204, 238, 205, 206, 207, 217, 227, 240, 231, 234, 246
+5000
+4
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v; read r, r1;
+Select r1 such that Follows(s , a) and Follows(a2, pn) with r.varName = "t" such that Follows(r1, pn1) pattern a1(v, _"var4"_)
+149, 141, 156
+5000
+5
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v; read r, r1;
+Select BOOLEAN with s.stmt# = 24 and pn.varName = "var9" and v.varName = "d" and r1.varName = "t" and p.procName = "Test2" and r.varName = pn.varName
+FALSE
+5000
+6
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v; read r, r1;
+Select BOOLEAN with s.stmt# = 374 and pn.varName = "var9" and v.varName = "d" and r1.varName = "t" and p.procName = "Test2" and r.varName = pn.varName
+FALSE
+5000
+7
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v; read r, r1;
+Select pn with s.stmt# = 24 and pn.varName = "var9" and v.varName = "d" and r1.varName = "t" and p.procName = "Test2" and r.varName = pn.varName
+none
+5000
+8
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v; read r, r1;
+Select pn.varName with s.stmt# = 243 and pn.varName = "var9" and v.varName = "d" and r1.varName = "t" and p.procName = "Test2" and r.varName = pn.varName
+none
+5000
+9
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v; read r, r1;
+Select pn.stmt# with s.stmt# = 241 and pn.varName = "var9" and v.varName = "d" and r1.varName = "t" and p.procName = "Test2" and r.varName = pn.varName
+none
+5000
+10
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1; read r, r1; if ifs; while w;
+Select BOOLEAN pattern a("x35", _) and a1(v, _) and ifs(v, _, _) such that Parent(ifs, a1) and Follows*(a2, w) pattern w(v1, _) and a2(v1, _)
+FALSE
+5000
+11
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1; read r, r1; if ifs; while w;
+Select a pattern a("x35", _) and a1(v, _) and ifs(v, _, _) such that Parent(ifs, a1) and Follows*(a2, w) pattern w(v1, _) and a2(v1, _)
+none
+5000
+12
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1; read r, r1; if ifs; while w;
+Select a1 pattern a("x35", _) and a1(v, _) and ifs(v, _, _) such that Parent(ifs, a1) and Follows*(a2, w) pattern w(v1, _) and a2(v1, _)
+none
+5000
+13
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1; read r, r1; if ifs; while w;
+Select a2 pattern a("x35", _) and a1(v, _) and ifs(v, _, _) such that Parent(ifs, a1) and Follows*(a2, w) pattern w(v1, _) and a2(v1, _)
+none
+5000
+14
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1; read r, r1; if ifs; while w; call c;
+Select c pattern a("x35", _) and a1(v, _) and ifs(v, _, _) such that Parent(ifs, a1) and Follows*(a2, w) pattern w(v1, _) and a2(v1, _)
+none
+5000
+15
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1; read r, r1; if ifs; while w;
+Select a2 pattern a("x35", _) and a1(v, _) and ifs(v, _, _) such that Parent(ifs, a1) and Follows*(a2, w) pattern w(v1, _) and a2(v1, _)
+none
+5000
+16
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1, v2; read r, r1;
+Select BOOLEAN such that Modifies("Test2", v) and Modifies("maple", v1) and Modifies("f1rStNam3", v2) pattern a(v, _) and a1(v1, _) and a2(v2, _)
+TRUE
+5000
+17
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1, v2; read r, r1;
+Select a such that Modifies("Test2", v) and Modifies("maple", v1) such that Modifies("f1rStNam3", v2) pattern a(v, _) and a1(v1, _) pattern a2(v2, _)
+1, 36, 35, 2, 22, 5, 31, 6, 7, 30, 41, 8, 12, 23, 232, 25, 29, 222, 34, 37, 51, 52, 54, 58
+5000
+18
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1, v2; read r, r1;
+Select a1 such that Modifies("Test2", v) and Modifies("maple", v1) such that Modifies("f1rStNam3", v2) pattern a(v, _) and a1(v1, _) pattern a2(v2, _)
+29, 218, 214, 217, 253, 234, 23, 222, 52, 58, 223, 225, 226, 227, 228, 229, 230, 231, 232, 233, 235
+5000
+19
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1, v2; read r, r1;
+Select a2 such that Modifies("Test2", v) and Modifies("maple", v1) such that Modifies("f1rStNam3", v2) pattern a(v, _) and a1(v1, _) pattern a2(v2, _)
+131, 162, 130, 118, 243, 140, 128, 159, 165, 115, 121, 124, 132, 126, 137, 145, 146
+5000
+20
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1, v2; read r, r1;
+Select a2 such that Modifies("Test2", v) and Modifies("maple", v1) such that Modifies("f1rStNam3", v2) and a(v, _) and a1(v1, _) pattern a2(v2, _)
+SyntaxError
+5000
+21
+stmt s, s1; assign a, a1, a2; print pn, pn1; procedure p; variable v, v1, v2; read r, r1;
+Select BOOLEAN such that Next(s, a) and Next(s, a1) and Next(s, a2) with a.stmt# = a1.stmt# and a1.stmt# = a2.stmt# and a.stmt# = a2.stmt#
+TRUE
+5000
+22
+stmt s, s1, s2; assign a, a1, a2; print pn, pn1; procedure p, p1, p2; variable v, v1, v2; read r, r1;
+Select BOOLEAN such that Next(s, a) and Next(s, a1) and Next(s, a2) and Modifies(p, v) with "Test2" = p.procName pattern a(v, _) and a1(v1, _) and a2(v2, _)
+TRUE
+5000
+23
+stmt s, s1, s2; assign a, a1, a2; print pn, pn1; procedure p, p1, p2; variable v, v1, v2; read r, r1;
+Select <a, a1, a2> such that Next(s, a) and Next(s, a1) and Next(s, a2) and Modifies(p, v) with "Test2" = p.procName pattern a(v, _) and a1(_, _) and a2(_, _)
+22 23 22, 51 52 51, 5 7 7, 36 34 36, 34 36 36, 23 22 22, 25 29 29, 29 25 29, 34 34 36, 58 58 58, 29 29 25, 25 25 25, 22 22 23, 36 36 36, 22 22 22, 23 23 22, 2 2 2, 35 35 35, 7 5 7, 5 5 5, 54 54 54, 5 5 7, 7 5 5, 36 34 34, 5 7 5, 7 7 5, 6 6 6, 23 22 23, 31 31 31, 54 58 58, 7 7 7, 52 52 52, 41 41 41, 8 8 8, 232 232 232, 12 12 12, 22 23 23, 23 23 23, 51 51 52, 25 29 25, 29 25 25, 58 58 54, 29 29 29, 25 25 29, 222 222 222, 58 54 58, 52 51 51, 34 36 34, 36 36 34, 34 34 34, 37 37 37, 51 51 51, 52 52 51, 52 51 52, 51 52 52, 58 54 54, 54 58 54, 54 54 58
+5000

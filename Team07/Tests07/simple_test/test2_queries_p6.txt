@@ -1,0 +1,25 @@
+1 - pattern a(exact_str, exact_str)
+assign a;
+Select a pattern a ("while", "8")
+1
+5000
+2 - pattern a(exact_str, exact_str)
+assign a;
+Select a pattern a ("x", "x + 1")
+none
+5000
+3 - pattern a(wild_card, exact_str)
+assign a;
+Select a pattern a (_, "while - 5")
+5
+5000
+4 - pattern a(wild_card, exact_str)
+assign a;
+Select a pattern a (_, "8")
+1
+5000
+5 - pattern a(exact_str, exact_str)
+assign a;
+Select a pattern a ("x", "x + 1 * 3 * 4 % 10")
+14
+5000

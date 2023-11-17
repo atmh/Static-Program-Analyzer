@@ -1,0 +1,190 @@
+1
+stmt s; read r;
+Select s such that Affects(s, r)
+none
+5000
+2
+stmt s; print p;
+Select s such that Affects(s, p)
+none
+5000
+3
+stmt s; assign a;
+Select s such that Affects(s, a)
+9, 21, 10, 2, 5, 20, 27
+5000
+4
+stmt s; call c;
+Select s such that Affects(s, c)
+none
+5000
+5
+stmt s; while w;
+Select s such that Affects(s, w)
+none
+5000
+6
+stmt s; if ifs;
+Select s such that Affects(s, ifs)
+none
+5000
+7
+stmt s;
+Select s such that Affects(s, 13)
+none
+5000
+8
+stmt s;
+Select s such that Affects(s, 2)
+none
+5000
+9
+stmt s;
+Select s such that Affects(s, s)
+21, 9, 5, 27
+5000
+10
+stmt s;
+Select s such that Affects(s, _)
+10, 21, 9, 2, 5, 20, 27
+5000
+11
+stmt s;
+Select s such that Affects(_, s)
+12, 5, 21, 9, 10, 18, 15, 27
+5000
+12
+stmt s;
+Select s such that Affects(9, s)
+9
+5000
+13
+stmt s, s1;
+Select <s, s1> such that Affects(s, s1)
+9 9, 21 12, 21 9, 10 9, 10 12, 21 21, 10 21, 2 12, 2 21, 2 9, 5 18, 5 10, 5 9, 5 5, 5 15, 20 5, 20 15, 20 18, 27 27
+5000
+14
+assign a; read r;
+Select a such that Affects(a, r)
+none
+5000
+15
+assign a; print p;
+Select a such that Affects(a, p)
+none
+5000
+16
+assign a;
+Select a such that Affects(a, a)
+5, 21, 9, 27
+5000
+17
+assign a; call c;
+Select a such that Affects(a, c)
+none
+5000
+18
+assign a; while w;
+Select a such that Affects(a, w)
+none
+5000
+19
+assign a; if ifs;
+Select a such that Affects(a, ifs)
+none
+5000
+20
+assign a;
+Select a such that Affects(a, 13)
+none
+5000
+21
+assign a;
+Select a such that Affects(a, 2)
+none
+5000
+22
+assign a;
+Select a such that Affects(a, a)
+5, 21, 9, 27
+5000
+23
+assign a;
+Select a such that Affects(a, _)
+10, 21, 9, 2, 5, 20, 27
+5000
+24
+assign a;
+Select a such that Affects(_, a)
+18, 10, 21, 9, 5, 12, 15, 27
+5000
+25
+assign a;
+Select a such that Affects(9, a)
+9
+5000
+26
+assign a, a1;
+Select <a, a1> such that Affects(a, a1)
+9 9, 21 12, 21 9, 10 9, 10 12, 21 21, 10 21, 2 12, 2 21, 2 9, 5 18, 5 10, 5 9, 5 5, 5 15, 20 5, 20 15, 20 18, 27 27
+5000
+27
+stmt s;
+Select BOOLEAN such that Affects(3, 45)
+FALSE
+5000
+28
+stmt s;
+Select BOOLEAN such that Affects(10, 11)
+FALSE
+5000
+29
+assign a;
+Select BOOLEAN such that Affects(2,_)
+TRUE
+5000
+30
+assign a;
+Select BOOLEAN such that Affects(1,_)
+FALSE
+5000
+31
+assign a;
+Select BOOLEAN such that Affects(_,25)
+FALSE
+5000
+32
+assign a;
+Select BOOLEAN such that Affects(_,32)
+FALSE
+5000
+33
+assign a;
+Select BOOLEAN such that Affects(_,_)
+TRUE
+5000
+34
+assign a;
+Select BOOLEAN such that Affects(2,a)
+TRUE
+5000
+35
+assign a;
+Select BOOLEAN such that Affects(1,a)
+FALSE
+5000
+36
+assign a;
+Select BOOLEAN such that Affects(a,25)
+FALSE
+5000
+37
+assign a;
+Select BOOLEAN such that Affects(a,32)
+FALSE
+5000
+38
+stmt s;
+Select BOOLEAN such that Affects(6, 20)
+FALSE
+5000

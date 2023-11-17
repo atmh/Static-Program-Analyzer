@@ -1,0 +1,15 @@
+1 - pattern a(exact_str, exact_str) with such that
+stmt s; assign a, a1;
+Select a such that Follows*(a, s) pattern a1("Follows", "Follows* 1")
+1, 2
+5000
+2 - pattern a(exact_str, exact_str) with such that
+stmt s; assign a, a1;
+Select a such that Follows*(a, s) pattern a("Follows", "Follows* 1")
+1
+5000
+3 - pattern a(exact_str, exact_str) with such that
+stmt s; assign a, a1;
+Select a pattern a ("Follows", "Follows * 1")
+1
+5000

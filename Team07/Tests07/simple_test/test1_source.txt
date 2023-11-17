@@ -1,0 +1,3 @@
+procedure test {
+  print x;
+}

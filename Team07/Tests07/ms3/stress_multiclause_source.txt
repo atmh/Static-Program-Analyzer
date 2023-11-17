@@ -1,0 +1,498 @@
+procedure First {
+    a = 5;
+    x = 50;
+    c = a + x;
+    while (w0 > 0) {
+        a = 5;
+        x = 50;
+        c = a + x;
+        read y;
+        print x;
+        call Second;
+            while (w1 > 0) {
+                   a = 5;
+                   x = 50;
+                   c = a + x;
+                   read y;
+                   print x;
+                   call Third;
+                while (w1 > 0) {
+                           a = 5;
+                           x = 50;
+                           c = a + x;
+                           read y;
+                           print x;
+                           call Third;
+                    while (w1 > 0) {
+                               a = 5;
+                               x = 50;
+                               c = a + x;
+                               read y;
+                               print x;
+                               call Third;
+                        while (w1 > 0) {
+                                   a = 5;
+                                   x = 50;
+                                   c = a + x;
+                                   read y;
+                                   print x;
+                                   call Third;
+                            while (w1 > 0) {
+                                       a = 5;
+                                       x = 50;
+                                       c = a + x;
+                                       read y;
+                                       print x;
+                                       call Third;
+                                while (w1 > 0) {
+                                           a = 5;
+                                           x = 50;
+                                           c = a + x;
+                                           read y;
+                                           print x;
+                                           call Third;
+                                    while (w1 > 0) {
+                                               a = 5;
+                                               x = 50;
+                                               c = a + x;
+                                               read y;
+                                               print x;
+                                               call Third;
+                                        while (w1 > 0) {
+                                                   a = 5;
+                                                   x = 50;
+                                                   c = a + x;
+                                                   read y;
+                                                   print x;
+                                                   call Third;
+                                            while (w1 > 0) {
+                                                      a = 5;
+                                                      x = 50;
+                                                      c = a + x;
+                                                      read y;
+                                                      print x;
+                                                      call Third;
+                                                while (w1 > 0) {
+                                                           a = 5;
+                                                           x = 50;
+                                                           c = a + x;
+                                                           read y;
+                                                           print x;
+                                                           call Third;
+                                                    while (w1 > 0) {
+                                                               a = 5;
+                                                               x = 50;
+                                                               c = a + x;
+                                                               read y;
+                                                               print x;
+                                                               call Third;
+                                                        while (w1 > 0) {
+                                                                   a = 5;
+                                                                   x = 50;
+                                                                   c = a + x;
+                                                                   read y;
+                                                                   print x;
+                                                                   call Third;
+                                                            while (w1 > 0) {
+                                                                       a = 5;
+                                                                       x = 50;
+                                                                       c = a + x;
+                                                                       read y;
+                                                                       print x;
+                                                                       call Third;
+                                                                while (w1 > 0) {
+                                                                           a = 5;
+                                                                           x = 50;
+                                                                           c = a + x;
+                                                                           read y;
+                                                                           print x;
+                                                                           call Four;
+                                                                while (w0 > 0) {
+                                                                        a = 5;
+                                                                        x = 50;
+                                                                        c = a + x;
+                                                                        read y;
+                                                                        print x;
+                                                                        call Second;
+                                                                            while (w1 > 0) {
+                                                                                   a = 5;
+                                                                                   x = 50;
+                                                                                   c = a + x;
+                                                                                   read y;
+                                                                                   print x;
+                                                                                   call Third;
+                                                                                while (w1 > 0) {
+                                                                                           a = 5;
+                                                                                           x = 50;
+                                                                                           c = a + x;
+                                                                                           read y;
+                                                                                           print x;
+                                                                                           call Third;
+                                                                                    while (w1 > 0) {
+                                                                                               a = 5;
+                                                                                               x = 50;
+                                                                                               c = a + x;
+                                                                                               read y;
+                                                                                               print x;
+                                                                                               call Third;
+                                                                                        while (w1 > 0) {
+                                                                                                   a = 5;
+                                                                                                   x = 50;
+                                                                                                   c = a + x;
+                                                                                                   read y;
+                                                                                                   print x;
+                                                                                                   call Third;
+                                                                                            while (w1 > 0) {
+                                                                                                       a = 5;
+                                                                                                       x = 50;
+                                                                                                       c = a + x;
+                                                                                                       read y;
+                                                                                                       print x;
+                                                                                                       call Third;
+                                                                                                while (w1 > 0) {
+                                                                                                           a = 5;
+                                                                                                           x = 50;
+                                                                                                           c = a + x;
+                                                                                                           read y;
+                                                                                                           print x;
+                                                                                                           call Third;
+                                                                                                    while (w1 > 0) {
+                                                                                                               a = 5;
+                                                                                                               x = 50;
+                                                                                                               c = a + x;
+                                                                                                               read y;
+                                                                                                               print x;
+                                                                                                               call Third;
+                                                                                                        while (w1 > 0) {
+                                                                                                                   a = 5;
+                                                                                                                   x = 50;
+                                                                                                                   c = a + x;
+                                                                                                                   read y;
+                                                                                                                   print x;
+                                                                                                                   call Third;
+                                                                                                            while (w1 > 0) {
+                                                                                                                      a = 5;
+                                                                                                                      x = 50;
+                                                                                                                      c = a + x;
+                                                                                                                      read y;
+                                                                                                                      print x;
+                                                                                                                      call Third;
+                                                                                                                while (w1 > 0) {
+                                                                                                                           a = 5;
+                                                                                                                           x = 50;
+                                                                                                                           c = a + x;
+                                                                                                                           read y;
+                                                                                                                           print x;
+                                                                                                                           call Third;
+                                                                                                                    while (w1 > 0) {
+                                                                                                                               a = 5;
+                                                                                                                               x = 50;
+                                                                                                                               c = a + x;
+                                                                                                                               read y;
+                                                                                                                               print x;
+                                                                                                                               call Third;
+                                                                                                                        while (w1 > 0) {
+                                                                                                                                   a = 5;
+                                                                                                                                   x = 50;
+                                                                                                                                   c = a + x;
+                                                                                                                                   read y;
+                                                                                                                                   print x;
+                                                                                                                                   call Third;
+                                                                                                                            while (w1 > 0) {
+                                                                                                                                       a = 5;
+                                                                                                                                       x = 50;
+                                                                                                                                       c = a + x;
+                                                                                                                                       read y;
+                                                                                                                                       print x;
+                                                                                                                                       call Third;
+                                                                                                                                while (w1 > 0) {
+                                                                                                                                           a = 5;
+                                                                                                                                           x = 50;
+                                                                                                                                           c = a + x;
+                                                                                                                                           read y;
+                                                                                                                                           print x;
+                                                                                                                                           call Four;
+                                                                                                                                while (w0 > 0) {
+                                                                                                                                        a = 5;
+                                                                                                                                        x = 50;
+                                                                                                                                        c = a + x;
+                                                                                                                                        read y;
+                                                                                                                                        print x;
+                                                                                                                                        call Second;
+                                                                                                                                            while (w1 > 0) {
+                                                                                                                                                   a = 5;
+                                                                                                                                                   x = 50;
+                                                                                                                                                   c = a + x;
+                                                                                                                                                   read y;
+                                                                                                                                                   print x;
+                                                                                                                                                   call Third;
+                                                                                                                                                while (w1 > 0) {
+                                                                                                                                                           a = 5;
+                                                                                                                                                           x = 50;
+                                                                                                                                                           c = a + x;
+                                                                                                                                                           read y;
+                                                                                                                                                           print x;
+                                                                                                                                                           call Third;
+                                                                                                                                                    while (w1 > 0) {
+                                                                                                                                                               a = 5;
+                                                                                                                                                               x = 50;
+                                                                                                                                                               c = a + x;
+                                                                                                                                                               read y;
+                                                                                                                                                               print x;
+                                                                                                                                                               call Third;
+                                                                                                                                                        while (w1 > 0) {
+                                                                                                                                                                   a = 5;
+                                                                                                                                                                   x = 50;
+                                                                                                                                                                   c = a + x;
+                                                                                                                                                                   read y;
+                                                                                                                                                                   print x;
+                                                                                                                                                                   call Third;
+                                                                                                                                                            while (w1 > 0) {
+                                                                                                                                                                       a = 5;
+                                                                                                                                                                       x = 50;
+                                                                                                                                                                       c = a + x;
+                                                                                                                                                                       read y;
+                                                                                                                                                                       print x;
+                                                                                                                                                                       call Third;
+                                                                                                                                                                while (w1 > 0) {
+                                                                                                                                                                           a = 5;
+                                                                                                                                                                           x = 50;
+                                                                                                                                                                           c = a + x;
+                                                                                                                                                                           read y;
+                                                                                                                                                                           print x;
+                                                                                                                                                                           call Third;
+                                                                                                                                                                    while (w1 > 0) {
+                                                                                                                                                                               a = 5;
+                                                                                                                                                                               x = 50;
+                                                                                                                                                                               c = a + x;
+                                                                                                                                                                               read y;
+                                                                                                                                                                               print x;
+                                                                                                                                                                               call Third;
+                                                                                                                                                                        while (w1 > 0) {
+                                                                                                                                                                                   a = 5;
+                                                                                                                                                                                   x = 50;
+                                                                                                                                                                                   c = a + x;
+                                                                                                                                                                                   read y;
+                                                                                                                                                                                   print x;
+                                                                                                                                                                                   call Third;
+                                                                                                                                                                            while (w1 > 0) {
+                                                                                                                                                                                      a = 5;
+                                                                                                                                                                                      x = 50;
+                                                                                                                                                                                      c = a + x;
+                                                                                                                                                                                      read y;
+                                                                                                                                                                                      print x;
+                                                                                                                                                                                      call Third;
+                                                                                                                                                                                while (w1 > 0) {
+                                                                                                                                                                                           a = 5;
+                                                                                                                                                                                           x = 50;
+                                                                                                                                                                                           c = a + x;
+                                                                                                                                                                                           read y;
+                                                                                                                                                                                           print x;
+                                                                                                                                                                                           call Third;
+                                                                                                                                                                                    while (w1 > 0) {
+                                                                                                                                                                                               a = 5;
+                                                                                                                                                                                               x = 50;
+                                                                                                                                                                                               c = a + x;
+                                                                                                                                                                                               read y;
+                                                                                                                                                                                               print x;
+                                                                                                                                                                                               call Third;
+                                                                                                                                                                                        while (w1 > 0) {
+                                                                                                                                                                                                   a = 5;
+                                                                                                                                                                                                   x = 50;
+                                                                                                                                                                                                   c = a + x;
+                                                                                                                                                                                                   read y;
+                                                                                                                                                                                                   print x;
+                                                                                                                                                                                                   call Third;
+                                                                                                                                                                                            while (w1 > 0) {
+                                                                                                                                                                                                       a = 5;
+                                                                                                                                                                                                       x = 50;
+                                                                                                                                                                                                       c = a + x;
+                                                                                                                                                                                                       read y;
+                                                                                                                                                                                                       print x;
+                                                                                                                                                                                                       call Third;
+                                                                                                                                                                                                while (w1 > 0) {
+                                                                                                                                                                                                           a = 5;
+                                                                                                                                                                                                           x = 50;
+                                                                                                                                                                                                           c = a + x;
+                                                                                                                                                                                                           read y;
+                                                                                                                                                                                                           print x;
+                                                                                                                                                                                                           call Four;
+                                                                                                                                                                                                while (w0 > 0) {
+                                                                                                                                                                                                        a = 5;
+                                                                                                                                                                                                        x = 50;
+                                                                                                                                                                                                        c = a + x;
+                                                                                                                                                                                                        read y;
+                                                                                                                                                                                                        print x;
+                                                                                                                                                                                                        call Second;
+                                                                                                                                                                                                            while (w1 > 0) {
+                                                                                                                                                                                                                   a = 5;
+                                                                                                                                                                                                                   x = 50;
+                                                                                                                                                                                                                   c = a + x;
+                                                                                                                                                                                                                   read y;
+                                                                                                                                                                                                                   print x;
+                                                                                                                                                                                                                   call Third;
+                                                                                                                                                                                                                while (w1 > 0) {
+                                                                                                                                                                                                                           a = 5;
+                                                                                                                                                                                                                           x = 50;
+                                                                                                                                                                                                                           c = a + x;
+                                                                                                                                                                                                                           read y;
+                                                                                                                                                                                                                           print x;
+                                                                                                                                                                                                                           call Third;
+                                                                                                                                                                                                                    while (w1 > 0) {
+                                                                                                                                                                                                                               a = 5;
+                                                                                                                                                                                                                               x = 50;
+                                                                                                                                                                                                                               c = a + x;
+                                                                                                                                                                                                                               read y;
+                                                                                                                                                                                                                               print x;
+                                                                                                                                                                                                                               call Third;
+                                                                                                                                                                                                                        while (w1 > 0) {
+                                                                                                                                                                                                                                   a = 5;
+                                                                                                                                                                                                                                   x = 50;
+                                                                                                                                                                                                                                   c = a + x;
+                                                                                                                                                                                                                                   read y;
+                                                                                                                                                                                                                                   print x;
+                                                                                                                                                                                                                                   call Third;
+                                                                                                                                                                                                                            while (w1 > 0) {
+                                                                                                                                                                                                                                       a = 5;
+                                                                                                                                                                                                                                       x = 50;
+                                                                                                                                                                                                                                       c = a + x;
+                                                                                                                                                                                                                                       read y;
+                                                                                                                                                                                                                                       print x;
+                                                                                                                                                                                                                                       call Third;
+                                                                                                                                                                                                                                while (w1 > 0) {
+                                                                                                                                                                                                                                           a = 5;
+                                                                                                                                                                                                                                           x = 50;
+                                                                                                                                                                                                                                           c = a + x;
+                                                                                                                                                                                                                                           read y;
+                                                                                                                                                                                                                                           print x;
+                                                                                                                                                                                                                                           call Third;
+                                                                                                                                                                                                                                           if (a <= 5) then {
+                                                                                                                                                                                                                                               while (b == 7) {
+                                                                                                                                                                                                                                                   c = a + x;
+                                                                                                                                                                                                                                               }
+                                                                                                                                                                                                                                           } else {
+                                                                                                                                                                                                                                               while (c == 10) {
+                                                                                                                                                                                                                                                   if ( a == 50) then {
+                                                                                                                                                                                                                                                       ee = 10;
+                                                                                                                                                                                                                                                   } else {
+                                                                                                                                                                                                                                                       while (ee == 10) {
+                                                                                                                                                                                                                                                           aa = 5;
+                                                                                                                                                                                                                                                       }
+                                                                                                                                                                                                                                                   }
+                                                                                                                                                                                                                                               }
+                                                                                                                                                                                                                                               x = 105;
+                                                                                                                                                                                                                                           }
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}
+
+procedure Second {
+    b = 1;
+}
+procedure Third {
+    c = 1;
+}
+procedure Four {
+    read b;
+   call Five;
+}
+procedure Five {
+    read b;
+    call Six;
+}
+procedure Six {
+    read x;
+    call Seven;
+}
+procedure Seven {
+    b = 7;
+    call Eight;
+}
+procedure Eight {
+    b = 8;
+    call Nine;
+}
+procedure Nine {
+    call Ten;
+}
+procedure Ten {
+    call Eleven;
+}
+procedure Eleven {
+    call Twelve;
+}
+procedure Twelve {
+    call Thirteen;
+}
+procedure Thirteen {
+    call Fourteen;
+}
+procedure Fourteen {
+    call Fifteen;
+}
+procedure Fifteen {
+    call Sixteen;
+}
+procedure Sixteen {
+    call Seventeen;
+}
+procedure Seventeen {
+    while (x == 0) {
+        a = 1;
+        b = 2;
+        c = 3;
+        d = 4;
+        e = 5;
+        f = 6;
+    }
+}

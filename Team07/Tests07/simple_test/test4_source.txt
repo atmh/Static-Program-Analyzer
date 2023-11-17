@@ -1,0 +1,44 @@
+procedure p1 {
+    x1 = 1;
+    x2 = 2;
+
+    while (x3 > 1) {
+        x4 = p + q;
+        read x5;
+        print p1;
+        call c1;
+
+            while (x6 > 10) {
+                x7 = r - s;
+                read x8;
+                print p2;
+                call c2;
+            }
+
+            while (x9 < 100000) {
+                x10 = t * u;
+                while = 100;
+                read x11;
+                print p3;
+                x12 = x10 * 10 / 12 + 1;
+            }
+
+    }
+
+    call while;
+
+}
+
+procedure c1 {
+    read c1x1;
+    print c1p1;
+}
+
+procedure c2 {
+    read c2x1;
+    print c2p1;
+}
+
+procedure while {
+    while = 3000;
+}

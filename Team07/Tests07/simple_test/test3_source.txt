@@ -1,0 +1,5 @@
+procedure test {
+  Follows = Follows * 1;
+  Follows = Follows + 1;
+  Follows = Follows - 1;
+}

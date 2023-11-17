@@ -1,0 +1,866 @@
+1
+
+Select BOOLEAN with 10000 = 10000
+TRUE
+5000
+2
+stmt s;
+Select s.stmt# with s.stmt# = 5
+5
+5000
+3
+print pn;
+Select pn with pn.stmt# = 2
+none
+5000
+4
+print pn;
+Select pn with pn.stmt# = 3
+3
+5000
+5
+read r;
+Select r with r.stmt# = 14
+none
+5000
+6
+read r;
+Select r with r.stmt# = 15
+15
+5000
+7
+assign a;
+Select a with a.stmt# = 2
+2
+5000
+8
+assign a;
+Select a with a.stmt# = 3
+none
+5000
+9
+if ifs;
+Select ifs with ifs.stmt# = 7
+none
+5000
+10
+if ifs;
+Select ifs with ifs.stmt# = 8
+8
+5000
+11
+while w;
+Select w with w.stmt# = 11
+none
+5000
+12
+while w;
+Select w with w.stmt# = 12
+12
+5000
+13
+call cl;
+Select cl with cl.stmt# = 1
+none
+5000
+14
+call cl;
+Select cl with cl.stmt# = 20
+20
+5000
+15
+stmt s;
+Select s with 5 = s.stmt#
+5
+5000
+16
+print pn;
+Select pn with 3 =  pn.stmt#
+3
+5000
+17
+read r;
+Select r with 7 = r.stmt#
+7
+5000
+18
+read r;
+Select r with 5 = r.stmt#
+none
+5000
+19
+assign a;
+Select a with 1 = a.stmt#
+1
+5000
+20
+if ifs;
+Select ifs with 8 = ifs.stmt#
+8
+5000
+21
+while w;
+Select w with 12 = w.stmt#
+12
+5000
+22
+call cl;
+Select cl with 20 = cl.stmt#
+20
+5000
+23
+stmt s; call cl;
+Select s with s.stmt# = cl.stmt#
+20, 43, 99, 133, 105, 112, 121
+5000
+24
+stmt s; read r;
+Select s with s.stmt# = r.stmt#
+7, 15, 42, 69, 53, 49, 81, 75, 28, 151, 113, 82, 137, 115, 33, 127, 50, 92, 136, 32, 83, 76, 146, 119
+5000
+25
+stmt s; print pn;
+Select s with s.stmt# = pn.stmt#
+3, 4, 149, 9, 55, 57, 148, 66, 30, 89, 26, 93, 78, 35, 59, 150, 106, 5, 120, 6, 114, 125, 140, 145, 56, 91, 48
+5000
+26
+stmt s; assign a; variable v;
+Select s with s.stmt# = a.stmt#
+1, 123, 16, 10, 38, 18, 39, 45, 47, 27, 21, 64, 52, 60, 40, 62, 67, 143, 73, 74, 126, 37, 2, 77, 84, 152, 131, 90, 68, 118, 98, 129, 86, 102, 104, 110, 135, 116, 124, 95, 19, 130, 96, 132, 87, 22, 111, 134, 147
+5000
+27
+stmt s; while w;
+Select s with s.stmt# = w.stmt#
+12, 23, 61, 29, 58, 70, 100, 107, 71, 41, 80, 24, 63, 138, 117, 34, 108, 97, 17, 142, 85, 141
+5000
+28
+stmt s; if ifs;
+Select s with s.stmt# = ifs.stmt#
+25, 14, 44, 51, 13, 36, 54, 109, 79, 11, 88, 46, 94, 139, 101, 8, 65, 103, 144, 72, 31, 128, 122
+5000
+29
+stmt s; call cl;
+Select s with cl.stmt# = s.stmt#
+20, 99, 121, 112, 43, 105, 133
+5000
+30
+stmt s; read r;
+Select s with r.stmt# = s.stmt#
+32, 119, 49, 53, 81, 75, 69, 137, 115, 113, 151, 127, 33, 82, 28, 50, 7, 92, 136, 15, 42, 83, 76, 146
+5000
+31
+stmt s; print pn;
+Select s with pn.stmt# = s.stmt#
+4, 3, 48, 120, 5, 114, 6, 55, 149, 9, 106, 150, 125, 57, 56, 91, 78, 35, 66, 148, 59, 145, 140, 26, 93, 30, 89
+5000
+32
+stmt s; assign a;
+Select s with a.stmt# = s.stmt#
+95, 47, 123, 16, 110, 132, 96, 73, 143, 104, 39, 18, 111, 22, 135, 116, 45, 84, 90, 131, 60, 2, 77, 126, 37, 52, 64, 86, 129, 134, 27, 21, 1, 62, 67, 40, 74, 124, 152, 68, 118, 98, 10, 38, 102, 87, 19, 130, 147
+5000
+33
+stmt s; while w;
+Select s with w.stmt# = s.stmt#
+61, 107, 23, 80, 41, 29, 58, 70, 138, 63, 117, 24, 71, 34, 97, 108, 12, 17, 142, 100, 85, 141
+5000
+34
+stmt s; if ifs;
+Select s with ifs.stmt# = s.stmt#
+44, 14, 25, 46, 94, 51, 36, 13, 54, 128, 31, 103, 8, 65, 11, 88, 72, 109, 79, 139, 101, 144, 122
+5000
+35
+stmt s;
+Select s with s.stmt# = "hi"
+SemanticError
+5000
+36
+call cl;
+Select cl with cl.stmt# = "hi"
+SemanticError
+5000
+37
+read r;
+Select r with r.stmt# = "hi"
+SemanticError
+5000
+38
+print pn;
+Select pn with pn.stmt# = "hi"
+SemanticError
+5000
+39
+assign a;
+Select a with a.stmt# = "hi"
+SemanticError
+5000
+40
+while w;
+Select w with w.stmt# = "hi"
+SemanticError
+5000
+41
+if ifs;
+Select ifs with ifs.stmt# = "hi"
+SemanticError
+5000
+42
+stmt s;
+Select s with "hi" = s.stmt#
+SemanticError
+5000
+43
+call cl;
+Select cl with "hi" = cl.stmt#
+SemanticError
+5000
+44
+read r;
+Select r with "hi" = r.stmt#
+SemanticError
+5000
+45
+print pn;
+Select pn with "hi" = pn.stmt#
+SemanticError
+5000
+46
+assign a;
+Select a with "hi" = a.stmt#
+SemanticError
+5000
+47
+while w;
+Select w with "hi" = w.stmt#
+SemanticError
+5000
+48
+if ifs;
+Select ifs with "hi" = ifs.stmt#
+SemanticError
+5000
+49
+constant stmt;
+Select stmt with stmt.value = 10000
+10000
+5000
+50
+constant stmt;
+Select stmt with 1 = stmt.value
+1
+5000
+51
+constant stmt; stmt s;
+Select stmt.value with stmt.value = s.stmt#
+20, 47, 6, 11, 3, 4, 5, 123, 1, 18, 14, 10, 2, 40, 100, 110, 26, 41, 30, 54, 13, 12, 8, 99
+5000
+52
+constant stmt; call cl;
+Select stmt.value with stmt.value = cl.stmt#
+20, 99
+5000
+53
+constant stmt; read r;
+Select stmt.value with stmt.value = r.stmt#
+none
+5000
+54
+constant stmt; print pn;
+Select stmt.value with stmt.value = pn.stmt#
+6, 5, 3, 30, 4, 26
+5000
+55
+constant stmt; assign a;
+Select stmt.value with stmt.value = a.stmt#
+10, 40, 47, 18, 123, 1, 2, 110
+5000
+56
+constant stmt; while w;
+Select stmt.value with stmt.value = w.stmt#
+100, 41, 12
+5000
+57
+constant stmt; if ifs;
+Select stmt.value with stmt.value = ifs.stmt#
+54, 8, 14, 11, 13
+5000
+58
+constant stmt; stmt s;
+Select stmt.value with s.stmt# = stmt.value
+1, 11, 3, 4, 123, 5, 6, 8, 10, 2, 18, 14, 110, 100, 40, 20, 41, 47, 12, 13, 54, 30, 99, 26
+5000
+59
+constant stmt; call cl;
+Select stmt.value with cl.stmt# = stmt.value
+20, 99
+5000
+60
+constant stmt; read r;
+Select stmt with r.stmt# = stmt.value
+none
+5000
+61
+constant stmt; print pn;
+Select stmt.value with pn.stmt# = stmt.value
+5, 6, 3, 26, 4, 30
+5000
+62
+constant stmt; assign a;
+Select stmt.value with a.stmt# = stmt.value
+47, 123, 18, 40, 110, 2, 1, 10
+5000
+63
+constant stmt; while w;
+Select stmt.value with w.stmt# = stmt.value
+41, 12, 100
+5000
+64
+constant stmt; if ifs;
+Select stmt.value with ifs.stmt# = stmt.value
+11, 14, 13, 54, 8
+5000
+65
+variable v;
+Select v with v.varName = "Call"
+Call
+5000
+66
+variable v;
+Select v with "Call" = v.varName
+Call
+5000
+67
+call cl;
+Select cl with cl.procName = "proc2"
+20, 133, 105, 99, 112, 43
+5000
+68
+call cl;
+Select cl with "proc2" = cl.procName
+20, 133, 105, 99, 112, 43
+5000
+69
+procedure p;
+Select p with p.procName = "proc3"
+proc3
+5000
+70
+procedure p;
+Select p with "proc3" = p.procName
+proc3
+5000
+71
+procedure p; variable v;
+Select p with p.procName = v.varName
+proc2, proc3
+5000
+72
+procedure p; variable v;
+Select p with v.varName = p.procName
+proc3, proc2
+5000
+73
+stmt s;
+Select s with s.stmt# = s.stmt#
+1, 2, 3, 4, 8, 12, 15, 16, 17, 20, 23, 30, 31, 13, 35, 36, 37, 25, 39, 38, 42, 43, 26, 47, 48, 49, 50, 9, 51, 53, 54, 57, 59, 113, 132, 60, 63, 145, 62, 64, 99, 67, 14, 52, 69, 71, 6, 56, 106, 72, 34, 58, 65, 95, 77, 10, 115, 90, 70, 78, 80, 134, 82, 29, 44, 147, 84, 45, 85, 24, 87, 83, 5, 91, 116, 94, 120, 96, 97, 40, 98, 100, 101, 75, 19, 46, 76, 102, 103, 104, 144, 108, 32, 68, 142, 112, 109, 110, 111, 41, 135, 55, 79, 22, 118, 119, 122, 27, 114, 121, 117, 93, 123, 28, 124, 105, 7, 126, 33, 138, 127, 88, 128, 131, 11, 21, 61, 89, 107, 74, 150, 86, 129, 136, 130, 137, 139, 66, 73, 143, 140, 92, 148, 18, 152, 81, 146, 141, 149, 133, 151, 125
+5000
+74
+call cl;
+Select cl with cl.stmt# = cl.stmt#
+20, 99, 121, 112, 43, 105, 133
+5000
+75
+call cl;
+Select cl with cl.procName = cl.procName
+121, 112, 133, 105, 99, 43, 20
+5000
+76
+read r;
+Select r with r.stmt# = r.stmt#
+32, 119, 49, 53, 81, 75, 69, 137, 115, 113, 151, 127, 33, 82, 28, 50, 7, 92, 136, 15, 42, 83, 76, 146
+5000
+77
+print pn;
+Select pn with pn.stmt# = pn.stmt#
+4, 3, 48, 120, 5, 114, 6, 55, 149, 9, 106, 150, 125, 57, 56, 91, 78, 35, 66, 148, 59, 145, 140, 26, 93, 30, 89
+5000
+78
+assign a;
+Select a with a.stmt# = a.stmt#
+95, 47, 123, 16, 110, 132, 96, 73, 143, 104, 39, 18, 111, 22, 135, 116, 45, 84, 90, 131, 60, 2, 77, 126, 37, 52, 64, 86, 129, 134, 27, 21, 1, 62, 67, 40, 74, 124, 152, 68, 118, 98, 10, 38, 102, 87, 19, 130, 147
+5000
+79
+while w;
+Select w with w.stmt# = w.stmt#
+61, 107, 23, 80, 41, 29, 58, 70, 138, 63, 117, 24, 71, 34, 97, 108, 12, 17, 142, 100, 85, 141
+5000
+80
+if ifs;
+Select ifs with ifs.stmt# = ifs.stmt#
+44, 14, 25, 46, 94, 51, 36, 13, 54, 128, 31, 103, 8, 65, 11, 88, 72, 109, 79, 139, 101, 144, 122
+5000
+81
+procedure p;
+Select p with p.procName = p.procName
+proc1, proc2, proc3, proc4, proc5
+5000
+82
+variable v;
+Select v with v.varName = v.varName
+call, w, pattern, pie, p, po, if, While, m, abcdefg, C, If, proc3, q, abdefg, read, xx, while, b, xxx, f, y, then, Call, elseif, Pattern, c, CALL, else, A, goodbye, hello, yYy, ab, xXx, d, koi, YYYY, a, zzz, hte, yyy, cd, h, Then, z, yyY, bye, Xxx, poi, Yyy, Read, LOW, xxX, x, assign, jk, proc2, print, pop, r, good, eg, bo, var, kk, loi, e, HI, abc, g, lo, B, k, E, i, l, n, D, o
+5000
+83
+constant c;
+Select c with c.value = c.value
+1, 20, 30, 10000, 0, 54321, 47, 6, 11, 3, 4, 5, 123, 26, 555, 8, 3213, 290, 100000, 40, 10000000, 18, 14, 10, 2, 99, 3333, 100, 110, 10234, 41, 200000, 54, 12, 13
+5000
+84
+constant c;
+Select c with c.value = "hi"
+SemanticError
+5000
+85
+constant c;
+Select c with "hi" = c.value
+SemanticError
+5000
+86
+procedure p; stmt s;
+Select p with p.procName = s.stmt#
+SemanticError
+5000
+87
+procedure p; call cl;
+Select p with p.procName = cl.stmt#
+SemanticError
+5000
+88
+procedure p; read r;
+Select p with p.procName = r.stmt#
+SemanticError
+5000
+89
+procedure p; print pn;
+Select p with p.procName = pn.stmt#
+SemanticError
+5000
+90
+procedure p; assign a;
+Select p with p.procName = a.stmt#
+SemanticError
+5000
+91
+procedure p; while w;
+Select p with p.procName = w.stmt#
+SemanticError
+5000
+92
+procedure p; if ifs;
+Select p with p.procName = ifs.stmt#
+SemanticError
+5000
+93
+procedure p; constant c;
+Select p with p.procName = c.value
+SemanticError
+5000
+94
+procedure p; stmt s;
+Select p with s.stmt# = p.procName
+SemanticError
+5000
+95
+procedure p; call cl;
+Select p with cl.stmt# = p.procName
+SemanticError
+5000
+96
+procedure p; read r;
+Select p with r.stmt# = p.procName
+SemanticError
+5000
+97
+procedure p; print pn;
+Select p with pn.stmt# = p.procName
+SemanticError
+5000
+98
+procedure p; assign a;
+Select p with a.stmt# = p.procName
+SemanticError
+5000
+99
+procedure p; while w;
+Select p with w.stmt# = p.procName
+SemanticError
+5000
+100
+procedure p; if ifs;
+Select p with ifs.stmt# = p.procName
+SemanticError
+5000
+101
+variable v;
+Select v with v.varName = 1
+SemanticError
+5000
+102
+variable v;
+Select v with 1 = v.varName
+SemanticError
+5000
+103
+call cl;
+Select cl with cl.procName = 1
+SemanticError
+5000
+104
+call cl;
+Select cl with 1 = cl.procName
+SemanticError
+5000
+105
+procedure p;
+Select p with p.procName = 1
+SemanticError
+5000
+106
+procedure p;
+Select p with 1 = p.procName
+SemanticError
+5000
+107
+procedure p; constant c;
+Select p with c.value = p.procName
+SemanticError
+5000
+108
+call cl; stmt s;
+Select cl with cl.procName = s.stmt#
+SemanticError
+5000
+109
+call cl; read r;
+Select cl with cl.procName = r.stmt#
+SemanticError
+5000
+110
+call cl; print pn;
+Select cl with cl.procName = pn.stmt#
+SemanticError
+5000
+111
+call cl; assign a;
+Select cl with cl.procName = a.stmt#
+SemanticError
+5000
+112
+call cl; while w;
+Select cl with cl.procName = w.stmt#
+SemanticError
+5000
+113
+call cl; if ifs;
+Select cl with cl.procName = ifs.stmt#
+SemanticError
+5000
+114
+call cl; call cl2;
+Select cl with cl.procName = cl2.stmt#
+SemanticError
+5000
+115
+call cl; call cl2;
+Select cl2 with cl.stmt# = cl2.procName
+SemanticError
+5000
+116
+call cl; constant c;
+Select cl with cl.procName = c.value
+SemanticError
+5000
+117
+call cl; stmt s;
+Select cl with s.stmt# = cl.procName
+SemanticError
+5000
+118
+call cl; read r;
+Select cl with r.stmt# = cl.procName
+SemanticError
+5000
+119
+call cl; print pn;
+Select cl with pn.stmt# = cl.procName
+SemanticError
+5000
+120
+call cl; assign a;
+Select cl with a.stmt# = cl.procName
+SemanticError
+5000
+121
+call cl; while w;
+Select cl with w.stmt# = cl.procName
+SemanticError
+5000
+122
+call cl; if ifs;
+Select cl with ifs.stmt# = cl.procName
+SemanticError
+5000
+123
+call cl; constant c;
+Select cl with c.value = cl.procName
+SemanticError
+5000
+124
+variable v; stmt s;
+Select v with v.varName = s.stmt#
+SemanticError
+5000
+125
+variable v; read r;
+Select v with v.varName = r.stmt#
+SemanticError
+5000
+126
+variable v; print pn;
+Select v with v.varName = pn.stmt#
+SemanticError
+5000
+127
+variable v; assign a;
+Select v with v.varName = a.stmt#
+SemanticError
+5000
+128
+variable v; while w;
+Select v with v.varName = w.stmt#
+SemanticError
+5000
+129
+variable v; if ifs;
+Select v with v.varName = ifs.stmt#
+SemanticError
+5000
+130
+variable v; call cl;
+Select v with v.varName = cl.stmt#
+SemanticError
+5000
+131
+variable v; constant c;
+Select v with v.varName = c.value
+SemanticError
+5000
+132
+variable v; stmt s;
+Select v with s.stmt# = v.varName
+SemanticError
+5000
+133
+call cl; variable v;
+Select v with cl.stmt# = v.varName
+SemanticError
+5000
+134
+variable v; read r;
+Select v with r.stmt# = v.varName
+SemanticError
+5000
+135
+variable v; print pn;
+Select v with pn.stmt# = v.varName
+SemanticError
+5000
+136
+variable v; assign a;
+Select v with a.stmt# = v.varName
+SemanticError
+5000
+137
+variable v; while w;
+Select v with w.stmt# = v.varName
+SemanticError
+5000
+138
+variable v; if ifs;
+Select v with ifs.stmt# = v.varName
+SemanticError
+5000
+139
+variable v; constant c;
+Select v with c.value = v.varName
+SemanticError
+5000
+140
+read r; stmt s;
+Select r with r.varName = s.stmt#
+SemanticError
+5000
+141
+read r; call cl;
+Select r with r.varName = cl.stmt#
+SemanticError
+5000
+142
+read r; read r2;
+Select r with r.varName = r2.stmt#
+SemanticError
+5000
+143
+read r; print pn;
+Select r with r.varName = pn.stmt#
+SemanticError
+5000
+144
+read r; assign a;
+Select r with r.varName = a.stmt#
+SemanticError
+5000
+145
+read r; while w;
+Select r with r.varName = w.stmt#
+SemanticError
+5000
+146
+read r; if ifs;
+Select r with r.varName = ifs.stmt#
+SemanticError
+5000
+147
+read r; constant c;
+Select r with r.varName = c.value
+SemanticError
+5000
+148
+read r; stmt s;
+Select r with s.stmt# = r.varName
+SemanticError
+5000
+149
+call cl; read r;
+Select r with cl.stmt# = r.varName
+SemanticError
+5000
+150
+read r; read r2;
+Select r2 with r.stmt# = r2.varName
+SemanticError
+5000
+151
+read r; print pn;
+Select r with pn.stmt# = r.varName
+SemanticError
+5000
+152
+read r; assign a;
+Select r with a.stmt# = r.varName
+SemanticError
+5000
+153
+read r; if ifs;
+Select r with ifs.stmt# = r.varName
+SemanticError
+5000
+154
+read r; while w;
+Select r with w.stmt# = r.varName
+SemanticError
+5000
+155
+read r; constant c;
+Select r with c.value = r.varName
+SemanticError
+5000
+156
+print pn; read r;
+Select pn with r1.varName = r2.stmt#
+SemanticError
+5000
+157
+print pn; call cl;
+Select pn with pn.varName = cl.stmt#
+SemanticError
+5000
+158
+print pn; stmt s;
+Select pn with pn.varName = s.stmt#
+SemanticError
+5000
+159
+print pn, pn2;
+Select pn with pn.varName = pn2.stmt#
+SemanticError
+5000
+160
+print pn; assign a;
+Select pn with pn.varName = a.stmt#
+SemanticError
+5000
+161
+print pn; while w;
+Select pn with pn.varName = w.stmt#
+SemanticError
+5000
+162
+print pn; if ifs;
+Select pn with pn.varName = ifs.stmt#
+SemanticError
+5000
+163
+print pn; constant c;
+Select pn with pn.varName = c.value
+SemanticError
+5000
+164
+print pn; stmt s;
+Select pn with s.stmt# = pn.varName
+SemanticError
+5000
+165
+print pn; constant c;
+Select pn with c.value = pn.varName
+SemanticError
+5000
+166
+call cl; print pn;
+Select pn with cl.stmt# = pn.varName
+SemanticError
+5000
+167
+print pn; read r;
+Select pn with r.stmt# = pn.varName
+SemanticError
+5000
+168
+print pn, pn2;
+Select pn2 with pn.stmt# = pn2.varName
+SemanticError
+5000
+169
+print pn; assign a;
+Select pn with a.stmt# = pn.varName
+SemanticError
+5000
+170
+print pn; while w;
+Select pn with w.stmt# = pn.varName
+SemanticError
+5000
+171
+print pn; if ifs;
+Select pn with ifs.stmt# = pn.varName
+SemanticError
+5000
+172
+call cl;
+Select cl.stmt# with cl.procName = "proc3"
+121
+5000
+173
+variable v;
+Select v with v.stmt# = 1
+SemanticError
+5000
+

@@ -1,0 +1,15 @@
+procedure usesEmpty1 {
+    read x;
+    read y;
+    while (0 < 1) {
+        read z;    
+    }
+}
+
+procedure usesEmpty2 {
+    if (2 < 3) then {
+        read a;    
+    } else {
+        call usesEmpty1;
+    }
+}

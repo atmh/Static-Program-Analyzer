@@ -1,0 +1,64 @@
+procedure Ass1gn0v3r104d {
+    while (simple == SIMPLE) {
+        SIMPLE = simple - 12341;
+        if ((simple == print) || (simple == SIMPLE)) then {
+            simple = SIMPLE + 323414;
+            print read;
+        } else {
+            print simple;
+            simple = 12341 * 12341/if ;
+            read SIMPLE;
+            if ((simple == SIMPLE) && (SIMPLE > 0)) then {
+                SIMPLE = simple + 12341;
+            } else {
+                print = read;
+                read print;
+                print = 12341 * 323414/if+104+1044%10*0/0+10446-10443;
+            }
+            print read;
+            print = 104+1044%10*0 - print;
+            print = 1044%((((((2))))))*0;
+            print = 10446-10443+0/0;
+        }
+    }
+ 
+    if ((12341 == d0saa123) && (autistic == 1)) then {
+        while(d0saa == d0saa123) {
+            d0saa = 12341/12341 - d0saa;
+            read d0saa;
+            d0saa123 = 12341/12341 - d0saa;
+        }
+        d0saa = 12341/323414 * (d0saa - d0saa123 / 323414) % 12341;
+        while (12341 == 12341) {
+            d0saa = 12341/323414 * ((d0saa - (d0saa123 / 323414))) % (12341);
+            d0saa = (d0saa123 / ((12341)));
+            while (d0saa == o0dsad123) {
+                o0dsad123 = d0saa123 / 12341 % 12341;
+                d0saa = (12341/323414 * (d0saa - d0saa123 / 323414) % 12341);
+                read d0saa;
+            }
+        }
+    } else {
+        o0dsad123 = ((((12341/(12341)))));
+        print o0dsad123 ;
+        o0dsad123 = o0dsad123 - d0saa123;
+        read o0dsad123;
+        o0dsad123 = o0dsad123 * o0dsad123 - d0saa123;
+    }
+    
+    if ((((0+0)*10446)+10443)-(1+(29/(30+31))) > 0) then {
+            o0dsad1234412 = (((0+0)*10446)+10443)-(1+(29/(30+31))) % o0dsad12344124122;
+            o0dsad12344124122 = (((0+0)*10446)+10443) % fsafsgg1;
+            fsafsgg1 = (((0+0)*10446)) % fsafsgg41241;
+            fsafsgg41241 = (((0+0))) % fsafsgg41241dsadas;
+            fsafsgg41241dsadas = (((0))) % fsafsgg41241dsadSS;
+        } else {
+            fsafsgg41241dsadSS = (((0))) % asdasgasGS123;
+            asdasgasGS123 = (1+(29/(30+31))) % hello123123;
+            hello123123 = ((29/(30+31))) % hello123123321;
+            hello123123321 = (((30+31))) % xdaa123123412;
+            xdaa123123412 = (((30))) % xdaa123123412safsaf;
+            xdaa123123412safsaf = (((31))) % o0dsad1234412;
+        }
+        read xdaa123123412;
+}

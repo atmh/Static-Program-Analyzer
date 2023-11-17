@@ -1,0 +1,103 @@
+procedure parent {
+    x = y + 1;
+    y = y + 2;
+    while ((y == 1) || (x <= 2) ) {
+        read x;
+        if (y > 1) then {
+            x = 1;
+
+            if (d > 10) then {
+                z = 10;
+            } else {
+		print z;
+                read z;
+                read x;
+                
+                if ((z < 1) && (y > 10)) then {
+                    c = 10;
+                } else {
+                    read z;
+                }
+                
+                if (y > z) then {
+                    print y;
+                } else {
+                    print z;
+                }
+
+                print z;
+                while (z > 1) {
+                    print z;
+                    z = z - 1;
+                }
+
+                while (x < y) {
+                    x = y + 1;
+                }
+
+                while (y > x) {
+		    y = x + 1;
+                }
+
+                if (x == 1) then {
+                    print y;
+                } else {
+                    x = 1;
+                    print c;
+                }
+		x = 1 + 1;
+		y = 2 + 1;
+            }
+
+            read x;
+            while ((x * 5 / 20 + 11) >= 14) {
+
+                while (!(x == a)) {
+                    if (5 != x) then {
+                        x = 1 + 1;
+                    } else {
+                        b = 1 + 1;
+                    }
+                    read c;
+                    a = c * 18;
+                }
+                print b;
+
+                if (b < a) then {
+                    while (b < a) {
+                        read b;
+                    }
+                } else {
+                    read a;
+                }
+            }
+            read x;
+            a = b - c;
+        } else {
+            while (x > 8) {
+                x = z + 10;
+                x = 1 + 2 + (a + b * c);
+                if (x > 555) then {
+                    print x;
+                    x = 1; 
+		} else {
+                    print y;
+                }
+            }
+        }
+        read y;
+        print x;
+    }
+
+    if (x < y) then {
+        y = 1;
+    } else {
+	x = 1;
+    }
+
+    while (x <= 3) {
+	a = 1 + 2;
+    }
+
+    print a;
+}

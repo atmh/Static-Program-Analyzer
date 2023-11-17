@@ -1,0 +1,68 @@
+procedure proc1 { 
+    call = 10000 - 10;
+    assign = 20 - 30 * 40;
+    print call;
+    print Call;
+    print read;
+    print Read;
+    read While;
+    if (((if > x) && (y < then)) || (if == Then)) then {
+        print if;
+    } else {
+        y = print;
+    }
+    if ((else > elseif) || (else >= read)) then {
+        while ((y > x) && (while == call)) {
+            if ((while < 6) && (else > read)) then {
+                if ((assign == 3) || (x == print)) then {
+                    read abcdefg;
+                    x = 3 + x / y;
+	            y = x + y;
+                } else {
+                    while (while < 0) {
+                        while = if * (then + 1) % 100000;
+                    }
+                    if = proc3 - x + y - z + while;
+	            call proc2;
+                }
+            } else {
+                print While;
+            }
+        }
+    } else {
+        print x;
+    }
+    while (y > 1) {
+        while (x != 123) {
+            if (then == else) then {
+                print if;
+            } else {
+                 read if;
+            }
+            while (w < y) {
+                print h;
+            }
+        }
+    }
+}
+
+procedure proc2 {
+    if (
+    (!((xxx + 1) * yyy / (200000-3) % zzz < 1 + x)) 
+    && (( a - b != 4 + x )
+    || (!(c/d >= 10000000 + y )))
+    ) then {
+        read call;
+        read print;
+        while (call < 3) { 
+            print call;
+        }
+    } else {
+        if (LOW < HI) then {
+	    x = x + call;
+        } else {
+            print HI;
+        }
+    }
+}
+

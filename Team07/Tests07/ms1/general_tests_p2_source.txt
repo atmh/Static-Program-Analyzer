@@ -1,0 +1,80 @@
+procedure Follows {
+  Follows = 2 - read + 5 * 1000;
+  Follow = 3 * 999997;
+  w = 1 + Follow - 5 * 99;
+  z = 4 - 2 + 2;
+  ModifiesStar = 10;
+  assign = assign - ModifiesStar * assign;
+  h = assign - 10;
+  read Read;
+  print while;
+  if (((read>0) && (y<0)) || (read == 1)) then {
+   print read; } else {
+   y = null * 3 + 5; }
+  if ((Follows>Modifies) || (Call>=Variable)) then {
+    while ((null>0)&&(NULL000==0)) {
+        if ((NULL000<6) && (f>1)) then {
+            if ((assign==47) || (z==3)) then {
+                Variable = EZClap + 37;
+                read h;
+                null = 3;} else {
+                while (call000<823) {
+                    call000 = call000 * (call + 1) % 100000; }
+                variable = 98929299 - 4;} } else {
+            ezLinkCard = 293929292 + 3213;}}} else {
+    Card = ezLinkCard / 54 * 5;}
+  while (y>=(z + y - while)) {
+    while (z!=2043) {
+        if ((((xyzzy ==2989) || (assign>9292)) && (h != xyzzy)) || ((Read <= Read) && (Read >= Read))) then {
+            call Call;
+            print Print;
+        }        else {
+		call Call;
+		print Read;
+		while (call000<823) {
+                    call000 = call000 * (print + 1) % 100000;
+		     print = print + call;
+		     call = next + print % call;
+		}
+        }
+	 while (w<54332) {
+            print prof;
+	    while ((complex > simple) &&(2 > 21)){
+              print print;
+           }
+       	 }
+        if (print==3) then {
+            print print;
+            container = container + (0 + y);} else {
+            read read;}
+       while (w<54332) {
+            print h;
+       }
+     }
+  while (z!=2043) {
+        if ((((xyzzy ==2989) || (assign>9292)) && (h != xyzzy)) || ((Read <= Read) && (Read >= Read))) then {
+            call Call;
+            print Print;
+        }        else {
+		call Call;
+		print print;
+		while (read000<823) {
+                    read000 = read000 * (read + 1) % 100000;
+		     call = print + call;
+		     print = next + print % call;
+		}
+        }
+        if (read==3) then {
+            print call;
+            read = read + (0 + y);} else {
+            read read;}
+       while (w<54332) {
+            print h;
+       }
+    }
+ print=print+call;
+  }
+}
+procedure Call {
+   Follows = Call;
+}

@@ -1,0 +1,56 @@
+procedure x {
+   call y;
+   procedure = call + calls;
+   while (test == 0) {
+        else = test1 + 2;
+        print else;
+        if (test1 != test + 20) then {
+            test2 = test3 % 20;
+            call y;
+        } else {
+            call z;
+        }
+   }
+}
+
+procedure y {
+    a = 1;
+    if (test3 == 1) then {
+        test3 = 1 + 2;
+    } else {
+        read test4;
+    }
+
+    while (test1 == 0) {
+        read test6;
+    }
+}
+
+procedure z {
+    if (test2 == 0) then {
+        call procedure5;
+        x = y;
+    } else {
+        call a;
+        y = y + 1;
+    }
+}
+
+procedure a {
+    while (test >= test1) {
+        call y;
+        y = 123 + 545 + 123 * 50;
+    }
+}
+
+procedure procedure5 {
+   while (x <= 1) {
+        call a;
+        if (x != 25) then {
+            x = x + 1;
+            call a;
+        } else {
+            call y;
+        }
+   }
+}

@@ -1,0 +1,27 @@
+procedure A {
+    while (i>0) {
+        print i;
+        if (x > y) then {
+            max = x;
+        } else {
+            max = y;
+        }
+        i = i + 1;
+    }
+    while (i > 0) {
+        if (x > y) then {
+            max = x;
+        } else {
+            max = y;
+        }
+        i = i + 1;
+    }
+    while (i > 0) {
+        print i;
+        if (x > y) then {
+            max = x;
+        } else {
+            max = y;
+        }
+    }
+}

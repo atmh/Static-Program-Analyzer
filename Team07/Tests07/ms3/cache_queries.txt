@@ -1,0 +1,30 @@
+1
+procedure p; variable v;
+Select p such that Uses(p, "x")
+a, b
+5000
+2
+assign a; variable v;
+Select a such that Uses(a, "x")
+1, 2, 3
+5000
+3
+assign a; procedure p; variable v1, v2;
+Select <p, a> such that Uses(p, "x") and Uses(a, "x")
+b 2, a 1, a 2, b 1, a 3, b 3
+5000
+4
+procedure p; variable v;
+Select p such that Modifies(p, "x")
+a, b
+5000
+5
+assign a; variable v;
+Select a such that Modifies(a, "x")
+1, 2, 3
+5000
+6
+assign a; procedure p; variable v1, v2;
+Select <p, a> such that Modifies(p, "x") and Modifies(a, "x")
+b 2, a 1, a 2, b 1, a 3, b 3
+5000

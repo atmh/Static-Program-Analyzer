@@ -1,0 +1,70 @@
+1
+variable v;
+Select v
+x, y, z, a
+5000
+2
+constant c;
+Select c
+0, 1, 2, 3
+5000
+3
+variable v;
+Select v such that Uses(0, v)
+none
+5000
+4
+variable v;
+Select v such that Uses(1, v)
+none
+5000
+5
+variable v;
+Select v such that Uses(2, v)
+none
+5000
+6
+variable v;
+Select v such that Uses(3, v)
+none
+5000
+7
+variable v;
+Select v such that Uses(4, v)
+none
+5000
+8
+variable v;
+Select v such that Uses(5, v)
+none
+5000
+9
+variable v;
+Select v such that Uses(6, v)
+none
+5000
+10
+variable v;
+Select v such that Uses(7, v)
+none
+5000
+11
+variable v;
+Select v such that Uses(8, v)
+none
+5000
+12
+variable v;
+Select v such that Uses("usesEmpty1", v)
+none
+5000
+13
+variable v;
+Select v such that Uses("usesEmpty2", v)
+none
+5000
+14
+variable v;
+Select v such that Uses("nonExistent", v)
+none
+5000

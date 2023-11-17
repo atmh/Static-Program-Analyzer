@@ -1,0 +1,45 @@
+procedure procedure {
+    z = x * 1;
+    i = 4;
+    read while;
+    read assign;
+    read read;
+    read call;
+    read print;
+    while (x != 0) {
+        x = y + 123;
+        if (x == q) then {
+            x = x + 1;
+            y = y + (x + y) + a - (z / 2 - (z * 2));
+            print y;
+        } else {
+            while = 5 % assign;
+            read call;
+            if (x == while) then {
+                b = b + 3 - (z * 2);
+            } else {
+                read = print;
+                print = read - while * assign / call;
+            }
+            x = read + ((((print)))) % 13;
+        }
+    }
+    if (read > 10) then {
+        c = (1 * 2 * 3) + read;
+        c = (2 * 1 * 2) + (1 / 3 % 4) % 5;
+    } else {
+        x = x / 5;
+        y = 1;
+        while ((z >= a) && (!(b != a)) ) {
+            call if;
+            print read;
+            read b;
+        }
+        print print;
+    }
+    x = while + print;
+}
+
+procedure if {
+    print x;
+}

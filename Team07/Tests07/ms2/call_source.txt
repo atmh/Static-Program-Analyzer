@@ -1,0 +1,57 @@
+procedure procedure {
+   call call;
+   read x;
+   print y;
+   while (then == 0) {
+        print x;
+        if (x != then) then {
+            call call;
+        } else {
+            call calls;
+        }
+   }
+}
+
+procedure call {
+    a = b + c * d / e - f;
+    print x;
+    read procedure;
+    if (x == 1) then {
+        x = a;
+    } else {
+        read x;
+    }
+
+    while (x == 0) {
+        read x;
+    }
+}
+
+procedure calls {
+    if (x == 0) then {
+        call y;
+        x = y;
+    } else {
+        call x;
+        y = y + 1;
+    }
+}
+
+procedure x {
+    while (x - 3 >= y) {
+        call call;
+        y = 100 + call;
+    }
+}
+
+procedure y {
+   while (x <= 100) {
+        read x;
+        call x;
+        if (x != procedure) then {
+            call x;
+        } else {
+            call call;
+        }
+   }
+}

@@ -1,0 +1,37 @@
+procedure main { 
+  w = 1 + u - 5 * 16;
+  null = 2 - 16 + 5 * 1000;
+  y = 3 * 10000000000000000;
+  z = 4 - 2;
+  NULL000 = 10;
+  f = 20 - 400 + 124;
+  assign = 30 - 300 * 1500;
+  h = 40 - 10;
+  read EZClap;
+  if (((null>0) && (y<0)) || (null == 1)) then {
+   print null; } else {
+   y = null * 3 + 5; }
+  if ((h>5) || (h>=5)) then {
+    while ((null>0)&&(NULL000==0)) {
+        if ((NULL000<6) && (f>1)) then {
+            if ((assign==47) || (z==3)) then {
+                EZClap = EZClap + 37;
+                read h;
+                null = 3;} else {
+                while (NULL000<823) {
+                    NULL000 = NULL000 * (null + 1) % 100000; }
+                EZClap = EZClap - 4;} } else {
+            EZClap = EZClap + 3213;}}} else {
+    EZClap = EZClap / 54 * 5;}
+  while (y>5311) {
+    while (z!=2043) {
+        if (null==3) then {
+            print null;
+            null = null + (0 + y);} else {
+            read null;}
+       while (w<54332) {
+            print h;
+       }
+     }
+  }
+}

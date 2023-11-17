@@ -1,0 +1,80 @@
+1
+procedure p;
+Select p such that Calls*(p, _)
+x, a, procedure5, z
+5000
+2
+procedure p;
+Select p such that Calls*(p, "y")
+x, a, procedure5, z
+5000
+3
+procedure p;
+Select p such that Calls*(p, "InvalidProcedure")
+none
+5000
+4
+procedure p;
+Select p such that Calls*(_, p)
+a, y, z, procedure5
+5000
+5
+procedure p;
+Select BOOLEAN such that Calls*(_, _)
+TRUE
+5000
+6
+procedure p;
+Select BOOLEAN such that Calls*(_, "y")
+TRUE
+5000
+7
+procedure p;
+Select BOOLEAN such that Calls*(_, "x")
+FALSE
+5000
+8
+procedure p;
+Select BOOLEAN such that Calls*(_, "InvalidProcedure")
+FALSE
+5000
+9
+procedure p;
+Select p such that Calls*("z", p)
+a, y, procedure5
+5000
+10
+procedure p;
+Select BOOLEAN such that Calls*("z", _)
+TRUE
+5000
+11
+procedure p;
+Select BOOLEAN such that Calls*("a", "y")
+TRUE
+5000
+12
+procedure p;
+Select BOOLEAN such that Calls*("a", "InvalidProcedure")
+FALSE
+5000
+13
+procedure p;
+Select BOOLEAN such that Calls*("InvalidProcedure", p)
+FALSE
+5000
+14
+procedure p;
+Select BOOLEAN such that Calls*("InvalidProcedure", _)
+FALSE
+5000
+15
+procedure p;
+Select BOOLEAN such that Calls*("InvalidProcedure", "y")
+FALSE
+5000
+16
+procedure p;
+Select BOOLEAN such that Calls*("InvalidProcedure", "InvalidProcedure")
+FALSE
+5000

@@ -1,0 +1,73 @@
+procedure proc1 {
+    x = a + b;
+    z = x + y;
+    while (p > 1) {
+        if ((p > 1) && (x > 1)) then {
+            z = x * 3;
+            if (y <= 10) then {
+                z = x + y;
+            } else {
+                call proc2;
+            }
+            print x;
+            while ((x / 210) <= 110) {
+                while (!(x == a + b)) {
+                    if (x % y != x) then {
+                        a = b + 3;
+                    } else {
+                        a = b + 4;
+                    }
+                }
+            }
+            call proc2;
+            read x;
+            a = b - c % 26;
+        } else {
+            while (x < 8) {
+                x = (1 * 2 * 3) + a + b;
+                x = x + y + (a + b * c) * 290 * 290;
+            }
+        }
+        read y;
+        print x;
+        call proc3;
+    }
+
+    if (p == q) then {
+        a = a + 41;
+        var = var + (x + y) + a - (z / 2 - (z * 2));
+        print var;
+    } else {
+        b = 54321 * 99 % c;
+        read b;
+        if (a == b) then {
+            b = b + 47 - (z * 2);
+        } else {
+            read = print;
+            print = read + if - while * assign / call;
+        }
+        x = 11 + ((((12)))) % 13;
+        y = 51*8-6%17;
+    }
+
+    call proc2;
+    a = x * y + b;
+}
+
+procedure proc2 {
+    read x;
+    if (y > z) then {
+        call proc3;
+        call proc4;
+    } else {
+        print c;
+    }
+}
+
+procedure proc3 {
+    read x;
+}
+
+procedure proc4 {
+    print y;
+}

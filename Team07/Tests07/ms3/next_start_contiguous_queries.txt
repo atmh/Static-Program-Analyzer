@@ -1,0 +1,5 @@
+1-comment
+stmt s1, s2, s3, s4, s5, s6;
+Select <s1, s2> such that Next*(s1, s2) and Next*(s2, s3)
+1 2
+5000

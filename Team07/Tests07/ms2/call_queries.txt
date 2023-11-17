@@ -1,0 +1,70 @@
+1
+procedure p, q;
+Select p such that Calls(p, q)
+calls, procedure, x, y
+5000
+2
+procedure p;
+Select p such that Calls(p, _)
+procedure, calls, x, y
+5000
+3
+procedure p;
+Select p such that Calls(p, "call")
+procedure, x, y
+5000
+4
+procedure p;
+Select p such that Calls(p, "InvalidProcedure")
+none
+5000
+5
+procedure p;
+Select p such that Calls(_, p)
+y, x, call, calls
+5000
+6
+procedure p;
+Select p such that Calls(_, _)
+calls, procedure, call, x, y
+5000
+7
+procedure p;
+Select p such that Calls(_, "call")
+calls, procedure, call, x, y
+5000
+8
+procedure p;
+Select p such that Calls(_, "InvalidProcedure")
+none
+5000
+9
+procedure p;
+Select p such that Calls("calls", p)
+y, x
+5000
+10
+procedure p;
+Select p such that Calls("x", "call")
+calls, procedure, call, x, y
+5000
+11
+procedure p;
+Select p such that Calls("x", p)
+call
+5000
+12
+procedure p;
+Select p such that Calls("y", p)
+x, call
+5000
+13
+procedure p;
+Select p such that Calls(p, "y")
+calls
+5000
+14
+procedure p;
+Select p such that Calls("procedure", p)
+call, calls
+5000

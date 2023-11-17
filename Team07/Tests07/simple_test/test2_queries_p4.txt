@@ -1,0 +1,50 @@
+1 - parent (value, value)
+stmt s;
+Select s such that Parent(2, 3)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+5000
+2 - parent (synonym, value)
+stmt s;
+Select s such that Parent(s, 5)
+4
+5000
+3 - parent (synonym, value)
+stmt s;
+Select s such that Parent(s, 16)
+none
+5000
+4 - parent (value, synonym)
+stmt s;
+Select s such that Parent(4, s)
+5, 6, 7, 8
+5000
+5 - parent (value, synonym)
+stmt stmt;
+Select stmt such that Parent(2, stmt)
+3, 4
+5000
+6 - parent (value, synonym)
+assign stmt;
+Select stmt such that Parent(4, stmt)
+5
+5000
+7 - parent (value, synonym)
+call stmt;
+Select stmt such that Parent(4, stmt)
+7
+5000
+8 - parent (wildcard, wildcard)
+stmt stmt;
+Select stmt such that Parent(_, _)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+5000
+9 - parent (wildcard, wildcard)
+print stmt;
+Select stmt such that Parent(_, _)
+8, 10, 16
+5000
+10 - parent (wildcard, synonym)
+stmt stmt;
+Select stmt such that Parent(_, stmt)
+3, 4, 5, 6, 7, 8, 14, 15
+5000

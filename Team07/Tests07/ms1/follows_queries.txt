@@ -1,0 +1,90 @@
+1 -
+variable v;
+Select v
+i, x, max, y
+5000
+2 -
+constant c;
+Select c
+0, 1
+5000
+3 -
+stmt s;
+Select s such that Follows(1, s)
+7
+5000
+4 -
+stmt s;
+Select s such that Follows(2, s)
+3
+5000
+5 -
+stmt s;
+Select s such that Follows(3, s)
+6
+5000
+6 -
+stmt s;
+Select s such that Follows(4, s)
+none
+5000
+7 -
+stmt s;
+Select s such that Follows(5, s)
+none
+5000
+8 -
+stmt s;
+Select s such that Follows(6, s)
+none
+5000
+9 -
+stmt s;
+Select s such that Follows(7, s)
+12
+5000
+10 -
+stmt s;
+Select s such that Follows(8, s)
+11
+5000
+11 -
+stmt s;
+Select s such that Follows(9, s)
+none
+5000
+12 -
+stmt s;
+Select s such that Follows(10, s)
+none
+5000
+13 -
+stmt s;
+Select s such that Follows(11, s)
+none
+5000
+14 -
+stmt s;
+Select s such that Follows(12, s)
+none
+5000
+15 -
+stmt s;
+Select s such that Follows(13, s)
+14
+5000
+16 -
+stmt s;
+Select s such that Follows(14, s)
+none
+5000
+17 -
+stmt s;
+Select s such that Follows(15, s)
+none
+5000
+18 -
+stmt s;
+Select s such that Follows(16, s)
+none
+5000

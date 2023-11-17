@@ -1,0 +1,75 @@
+procedure a {
+    read a;
+    print a;
+    call b;
+    while (avxslsdfkklsdjgsalkfdafjlkasdf == 10129423095823094854902348012384091) {
+        a = a + 504;
+        if (a == 700) then {
+                    read a;
+                    print b;
+                    call c;
+                    b = b + 7500;
+                    while (q == p) {
+                        print q;
+                        q = abs;
+                        d = a + b + c;
+                        e = e + a + b + c * q + b / 10;
+                        read a;
+                        call b;
+                        x = 5470;
+                        y = 7980;
+                        c = x + y;
+                        b = x - y + b + e + f + g + d + e;
+                        print c;
+                    }
+                } else {
+                    c = 5;
+                    read c;
+                    read x;
+                    x = 5040 + y;
+                    while (a != 10) {
+                        a = a - 5049;
+                        if ( a <= 0) then {
+                            a = 10;
+                        } else {
+                            a = asdsakdlfjsflkgjslkjfadlskfss + c;
+                        }
+                    }
+                    print c;
+                    print x;
+                }
+    }
+}
+procedure b {
+    a = b + c;
+    if (a == b + c) then {
+        while (b == 504) {
+            call c;
+            read b;
+            print c;
+        }
+        b = 504;
+        a = d + e;
+    } else {
+        a = f + g;
+    }
+}
+procedure c {
+    a = 9812349012859023485;
+    b = 21394051273503492810293;
+    c = 3280951823400 - 8124 - 351423;
+    d = 3901248230583904583204;
+    while (a == 0) {
+        if (a  <= 0) then {
+            read a;
+            read b;
+            read c;
+            read d;
+        } else {
+            print a;
+            print b;
+            print c;
+            print d;
+        }
+    }
+}

@@ -1,0 +1,6 @@
+procedure A {
+    x = x + 1;
+}
+procedure B {
+    x = x + 1;
+}

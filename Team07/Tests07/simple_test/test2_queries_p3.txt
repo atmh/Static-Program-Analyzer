@@ -1,0 +1,50 @@
+1 - follows* (value, value)
+stmt s;
+Select s such that Follows*(1, 2)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+5000
+2 - follows* (synonym, value)
+stmt s;
+Select s such that Follows*(s, 8)
+5,6,7
+5000
+3 - follows* (synonym, value)
+stmt s;
+Select s such that Follows*(s, 16)
+9,10,11,12,13
+5000
+4 - follows* (value, synonym)
+stmt s;
+Select s such that Follows*(14, s)
+15
+5000
+5 - follows* (value, synonym)
+stmt stmt;
+Select stmt such that Follows*(14, stmt)
+15
+5000
+6 - follows* (value, synonym)
+assign stmt;
+Select stmt such that Follows*(14, stmt)
+15
+5000
+7 - follows* (value, synonym)
+call stmt;
+Select stmt such that Follows*(14, stmt)
+none
+5000
+8 - follows* (wildcard, wildcard)
+stmt stmt;
+Select stmt such that Follows*(_, _)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+5000
+9 - follows* (wildcard, wildcard)
+print stmt;
+Select stmt such that Follows*(_, _)
+8, 10, 16
+5000
+10 - follows* (wildcard, synonym)
+stmt stmt;
+Select stmt such that Follows*(_, stmt)
+2, 4, 6, 7, 8, 10, 11, 12, 13, 15, 16
+5000

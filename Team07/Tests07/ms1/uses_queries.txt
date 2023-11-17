@@ -1,0 +1,150 @@
+1 - All variables
+variable v;
+Select v
+x, y, z, a, b, d, l, X, xxx, yyy, zzz, c, call, LOW, HI, print
+5000
+2 - All constants
+constant c;
+Select c
+5, 0, 10, 3, 1, 2, 200000, 4, 1000000002000000000300000004000
+5000
+3 - StmtNo uses
+variable v;
+Select v such that Uses(0, v)
+none
+5000
+4 - StmtNo uses
+variable v;
+Select v such that Uses(1, v)
+none
+5000
+5 - StmtNo uses
+variable v;
+Select v such that Uses(2, v)
+none
+5000
+6 - StmtNo uses
+variable v;
+Select v such that Uses(3, v)
+none
+5000
+7 - StmtNo uses
+variable v;
+Select v such that Uses(4, v)
+x, y, z, a, b, d, X, xxx, yyy, zzz, c, call, LOW, HI
+5000
+8 - StmtNo uses
+variable v;
+Select v such that Uses(5, v)
+x, xxx, yyy, zzz, a, b, c, d, call, LOW, HI
+5000
+9 - StmtNo uses
+variable v;
+Select v such that Uses(6, v)
+x
+5000
+10 - StmtNo uses
+variable v;
+Select v such that Uses(7, v)
+xxx, yyy, zzz, a, b, c, d, call, LOW, HI
+5000
+11 - StmtNo uses
+variable v;
+Select v such that Uses(8, v)
+none
+5000
+12 - StmtNo uses
+variable v;
+Select v such that Uses(9, v)
+y, z, a, b, d
+5000
+13 - StmtNo uses
+variable v;
+Select v such that Uses(10, v)
+z, a, b, d
+5000
+14 - StmtNo uses
+variable v;
+Select v such that Uses(11, v)
+d
+5000
+15 - StmtNo uses
+variable v;
+Select v such that Uses(12, v)
+none
+5000
+16 - StmtNo uses
+variable v;
+Select v such that Uses(13, v)
+X
+5000
+17 - StmtNo uses
+variable v;
+Select v such that Uses(14, v)
+xxx, yyy, zzz, a, b, c, d, call, LOW, HI
+5000
+18 - StmtNo uses
+variable v;
+Select v such that Uses(15, v)
+none
+5000
+19 - StmtNo uses
+variable v;
+Select v such that Uses(16, v)
+none
+5000
+20 - StmtNo uses
+variable v;
+Select v such that Uses(17, v)
+call
+5000
+21 - StmtNo uses
+variable v;
+Select v such that Uses(18, v)
+call
+5000
+22 - StmtNo uses
+variable v;
+Select v such that Uses(19, v)
+LOW, HI
+5000
+23 - StmtNo uses
+variable v;
+Select v such that Uses(20, v)
+LOW
+5000
+24 - StmtNo uses
+variable v;
+Select v such that Uses(21, v)
+HI
+5000
+25 - StmtNo uses
+variable v;
+Select v such that Uses(22, v)
+none
+5000
+26 - Select procedure1 variable
+variable v;
+Select v such that Uses("uses1", v)
+x, y, z, a, b, d, X, xxx, yyy, zzz, c, call, LOW, HI
+5000
+27 - Select procedure2 variable
+variable v;
+Select v such that Uses("uses2", v)
+xxx, yyy, zzz, a, b, c, d, call, LOW, HI
+5000
+28 - Select procedure1 constant
+constant c;
+Select c such that Uses("uses1", c)
+SemanticError
+5000
+29 - Select procedure2 constant
+constant c;
+Select c such that Uses("uses2", c)
+SemanticError
+5000
+30 - Select wildcare
+variable v;
+Select v such that Uses(_, v)
+SemanticError
+5000

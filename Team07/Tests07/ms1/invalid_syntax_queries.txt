@@ -1,0 +1,25 @@
+1
+variable v, v2; assign a, a2; print pn, pn2; stmt s, s2; call c, c2; procedure p, p2; if if, if2; while w, w2;
+Select v such that Modifies(_, _"v"_)
+SyntaxError
+5000
+2
+variable v, v2; assign a, a2; print pn, pn2; stmt s, s2; call c, c2; procedure p, p2; if if, if2; while w, w2;
+Select v such that Modifies(_, "v"_)
+SyntaxError
+5000
+3
+variable v, v2; assign a, a2; print pn, pn2; stmt s, s2; call c, c2; procedure p, p2; if if, if2; while w, w2;
+Select v such that Modifies(_, "v")_
+SyntaxError
+5000
+4
+variable v, v2; assign a, a2; print pn, pn2; stmt s, s2; call c, c2; procedure p, p2; if if, if2; while w, w2;
+Select a pattern a (1, "x")
+SyntaxError
+5000
+5
+variable v, v2; assign a, a2; print pn, pn2; stmt s, s2; call c, c2; procedure p, p2; if if, if2; while w, w2;
+Select a pattern a ("meow", "x")
+none
+5000

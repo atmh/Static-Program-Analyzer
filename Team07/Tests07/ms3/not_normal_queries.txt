@@ -1,0 +1,50 @@
+1
+variable v;
+Select BOOLEAN such that not Calls ("First", "Second")
+FALSE
+5000
+2
+procedure p;
+Select p such that not Calls* (p, "Third")
+First, Second, Third
+5000
+3
+procedure p; while w;
+Select w pattern not w("y", _)
+6
+5000
+4
+procedure p, q;
+Select p such that not Calls* (p, q)
+First, Second, Third
+5000
+5
+while w; variable v;
+Select <w, v> pattern not w(v, _)
+6 v, 6 x, 6 y, 6 z
+5000
+6
+variable v;
+Select v such that not Modifies("First", v)
+v
+5000
+7
+procedure p;
+Select p such that not Uses (p, "v")
+First, Second
+5000
+8
+while w;
+Select w such that not Parent(w, _)
+none
+5000
+9
+procedure p, q; variable v;
+Select p such that not Calls* (p, q) and not Modifies (p, v)
+First, Second, Third
+5000
+10
+while w; variable v;
+Select <w, v> such that not Parent*(w, _) and not Uses(w, v)
+none
+5000

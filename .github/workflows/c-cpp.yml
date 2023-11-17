@@ -1,0 +1,172 @@
+name: CI
+
+on:
+  push:
+    branches: [ "develop", "master" ]
+  pull_request:
+    branches: [ "develop", "master" ]
+
+jobs:
+  debug:
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        platform: [ ubuntu-latest, macos-latest, windows-latest ]
+      fail-fast: true
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and Test Debug
+        if: ${{ matrix.platform != 'windows-latest' }}
+        run: |
+          cd Team07/Code07
+          cmake -Bbuild -S. -DCMAKE_BUILD_TYPE=Debug
+          cmake --build build -j$(nproc)
+          ./build/src/unit_testing/unit_testing
+
+      - uses: actions/checkout@v3
+      - name: Build and Test Debug
+        if: ${{ matrix.platform == 'windows-latest' }}
+        run: |
+          cd Team07/Code07
+          cmake -Bbuild -S. -DCMAKE_BUILD_TYPE=Debug
+          cmake --build build -j4
+          build/src/unit_testing/Debug/unit_testing.exe
+
+  release:
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        platform: [ ubuntu-latest, macos-latest, windows-latest ]
+      fail-fast: true
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and Test Release
+        if: ${{ matrix.platform != 'windows-latest' }}
+        run: |
+          cd Team07/Code07
+          cmake -Bbuild -S. -DCMAKE_BUILD_TYPE=Release
+          cmake --build build -j$(nproc)
+          ./build/src/unit_testing/unit_testing
+
+      - uses: actions/checkout@v3
+      - name: Build and Test Release
+        if: ${{ matrix.platform == 'windows-latest' }}
+        run: |
+          cd Team07/Code07
+          cmake -Bbuild -S. -DCMAKE_BUILD_TYPE=Release
+          cmake --build build -j4
+          build/src/unit_testing/Debug/unit_testing.exe
+
+  debug-integration-test:
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        platform: [ ubuntu-latest, macos-latest, windows-latest ]
+      fail-fast: true
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and Test Debug
+        if: ${{ matrix.platform != 'windows-latest' }}
+        run: |
+          cd Team07/Code07
+          pip3 install mako
+          ./src/integration_testing/src/qps_pkb/such_that_clause/gen.py
+          cmake -Bbuild -S. -DCMAKE_BUILD_TYPE=Debug
+          cmake --build build --target integration_testing -j$(nproc)
+          ./build/src/integration_testing/integration_testing
+
+      - uses: actions/checkout@v3
+      - name: Build and Test Debug
+        if: ${{ matrix.platform == 'windows-latest' }}
+        run: |
+          cd Team07/Code07
+          cmake -Bbuild -S. -DCMAKE_BUILD_TYPE=Debug
+          cmake --build build --target integration_testing -j4
+          build/src/integration_testing/Debug/integration_testing.exe
+
+  release-integration-test:
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        platform: [ ubuntu-latest, macos-latest, windows-latest ]
+      fail-fast: true
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and Test Release
+        if: ${{ matrix.platform != 'windows-latest' }}
+        run: |
+          cd Team07/Code07
+          cmake -Bbuild -S. -DCMAKE_BUILD_TYPE=Release
+          cmake --build build --target integration_testing -j$(nproc)
+          ./build/src/integration_testing/integration_testing
+
+      - uses: actions/checkout@v3
+      - name: Build and Test Release
+        if: ${{ matrix.platform == 'windows-latest' }}
+        run: |
+          cd Team07/Code07
+          cmake -Bbuild -S. -DCMAKE_BUILD_TYPE=Release
+          cmake --build build --target integration_testing -j4
+          build/src/integration_testing/Debug/integration_testing.exe
+
+  debug-system-test:
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        platform: [ ubuntu-latest, macos-latest, windows-latest ]
+      fail-fast: true
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and Test Debug
+        if: ${{ matrix.platform != 'windows-latest' }}
+        run: |
+          pip3 install lxml
+          pip3 install argparse
+          cd Team07
+          ./Tests07/test.py --build_type debug
+
+      - uses: actions/checkout@v3
+      - name: Build and Test Debug
+        if: ${{ matrix.platform == 'windows-latest' }}
+        run: |
+          pip3 install lxml
+          pip3 install argparse
+          cd Team07
+          python3 Tests07/test.py --build_type debug --platform windows
+
+  release-system-test:
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        platform: [ ubuntu-latest, macos-latest, windows-latest ]
+      fail-fast: true
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and Test Release
+        if: ${{ matrix.platform != 'windows-latest' }}
+        run: |
+          pip3 install lxml
+          pip3 install argparse
+          cd Team07
+          ./Tests07/test.py --build_type release
+
+      - uses: actions/checkout@v3
+      - name: Build and Test Release
+        if: ${{ matrix.platform == 'windows-latest' }}
+        run: |
+          pip3 install lxml
+          pip3 install argparse
+          cd Team07
+          python3 Tests07/test.py --build_type release --platform windows

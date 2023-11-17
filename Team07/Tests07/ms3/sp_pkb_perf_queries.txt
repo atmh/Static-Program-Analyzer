@@ -1,0 +1,6 @@
+1
+
+S
+SyntaxError
+5000
+

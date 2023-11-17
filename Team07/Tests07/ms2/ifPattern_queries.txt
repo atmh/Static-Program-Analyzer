@@ -1,0 +1,266 @@
+1
+if ifs;
+Select ifs pattern ifs(_,_,_)
+42, 10, 21, 9, 47, 7, 50, 27, 4, 115, 68, 96, 40, 74, 137, 32, 83, 89, 121, 61, 98, 104
+5000
+2
+if ifs; variable v;
+Select ifs pattern ifs(v,_,_)
+42, 10, 21, 9, 47, 7, 50, 27, 4, 115, 68, 96, 40, 74, 137, 32, 83, 89, 121, 61, 98, 104
+5000
+3
+if ifs; variable v;
+Select v pattern ifs(v,_,_)
+xXx, yYy, HI, assign, else, read, Xxx, xxX, c, a, z, Then, if, x, b, If, C, d, e, A, xxx, lo, while, then, kk, yyy, B, zzz, loi, poi, f, r, y, q, elseif, k, E, l, print, LOW, m, p, D, o
+5000
+4
+if ifs; variable v;
+Select <ifs, v> pattern ifs(v,_,_)
+7 read, 7 elseif, 40 yYy, 10 print, 98 f, 27 yyy, 32 LOW, 9 while, 21 else, 47 Xxx, 47 xxX, 9 read, 50 xxx, 27 a, 137 A, 27 xxx, 27 zzz, 21 then, 4 y, 27 c, 4 If, 27 d, 96 e, 96 d, 61 x, 4 Then, 89 loi, 137 E, 9 else, 137 D, 137 C, 74 lo, 89 poi, 104 m, 104 l, 121 q, 115 o, 121 r, 32 HI, 10 assign, 42 xXx, 68 x, 74 while, 27 b, 104 k, 10 z, 7 else, 83 kk, 50 yyy, 4 then, 4 if, 137 B, 115 p
+5000
+5
+if ifs;
+Select ifs pattern ifs("if",_,_)
+4
+5000
+6
+if ifs;
+Select ifs pattern ifs("If",_,_)
+4
+5000
+7
+if ifs;
+Select ifs pattern ifs("y",_,_)
+4
+5000
+8
+if ifs;
+Select ifs pattern ifs("then",_,_)
+21, 4
+5000
+9
+if ifs;
+Select ifs pattern ifs("Then",_,_)
+4
+5000
+10
+if ifs;
+Select ifs pattern ifs("else",_,_)
+21, 9, 7
+5000
+11
+if ifs;
+Select ifs pattern ifs("elseif",_,_)
+7
+5000
+12
+if ifs;
+Select ifs pattern ifs("read",_,_)
+9, 7
+5000
+13
+if ifs;
+Select ifs pattern ifs("while",_,_)
+74, 9
+5000
+14
+if ifs;
+Select ifs pattern ifs("assign",_,_)
+10
+5000
+15
+if ifs;
+Select ifs pattern ifs("print",_,_)
+10
+5000
+16
+if ifs;
+Select ifs pattern ifs("xxx",_,_)
+50, 27
+5000
+17
+if ifs;
+Select ifs pattern ifs("yyy",_,_)
+50, 27
+5000
+18
+if ifs;
+Select ifs pattern ifs("zzz",_,_)
+27
+5000
+19
+if ifs;
+Select ifs pattern ifs("a",_,_)
+27
+5000
+20
+if ifs;
+Select ifs pattern ifs("b",_,_)
+27
+5000
+21
+if ifs;
+Select ifs pattern ifs("c",_,_)
+27
+5000
+22
+if ifs;
+Select ifs pattern ifs("d",_,_)
+96, 27
+5000
+23
+if ifs;
+Select ifs pattern ifs("yYy",_,_)
+40
+5000
+24
+if ifs;
+Select ifs pattern ifs("xXx",_,_)
+42
+5000
+25
+if ifs;
+Select ifs pattern ifs("xxX",_,_)
+47
+5000
+26
+if ifs;
+Select ifs pattern ifs("Xxx",_,_)
+47
+5000
+27
+if ifs;
+Select ifs pattern ifs("x",_,_)
+68, 61
+5000
+28
+if ifs;
+Select ifs pattern ifs("kk",_,_)
+83
+5000
+29
+if ifs;
+Select ifs pattern ifs("poi",_,_)
+89
+5000
+30
+if ifs;
+Select ifs pattern ifs("loi",_,_)
+89
+5000
+31
+if ifs;
+Select ifs pattern ifs("e",_,_)
+96
+5000
+32
+if ifs;
+Select ifs pattern ifs("f",_,_)
+98
+5000
+33
+if ifs;
+Select ifs pattern ifs("k",_,_)
+104
+5000
+34
+if ifs;
+Select ifs pattern ifs("l",_,_)
+104
+5000
+35
+if ifs;
+Select ifs pattern ifs("m",_,_)
+104
+5000
+36
+if ifs;
+Select ifs pattern ifs("n",_,_)
+none
+5000
+37
+if ifs;
+Select ifs pattern ifs("o",_,_)
+115
+5000
+38
+if ifs;
+Select ifs pattern ifs("p",_,_)
+115
+5000
+39
+if ifs;
+Select ifs pattern ifs("A",_,_)
+137
+5000
+40
+if ifs;
+Select ifs pattern ifs("B",_,_)
+137
+5000
+41
+if ifs;
+Select ifs pattern ifs("C",_,_)
+137
+5000
+42
+if ifs;
+Select ifs pattern ifs("D",_,_)
+137
+5000
+43
+if ifs;
+Select ifs pattern ifs("E",_,_)
+137
+5000
+44
+if ifs;
+Select BOOLEAN pattern ifs(_,"if", "if")
+SyntaxError
+5000
+45
+if ifs;
+Select BOOLEAN pattern ifs(_,"x")
+SemanticError
+5000
+46
+if ifs;
+Select BOOLEAN pattern ifs(_,_,"x")
+SyntaxError
+5000
+47
+if ifs;
+Select BOOLEAN pattern ifs(_,"x",_)
+SyntaxError
+5000
+48
+if ifs; stmt s;
+Select BOOLEAN pattern ifs(_,s,_)
+SyntaxError
+5000
+49
+if ifs; stmt s;
+Select BOOLEAN pattern ifs(_,_,s)
+SyntaxError
+5000
+50
+if ifs;
+Select ifs pattern ifs()
+SyntaxError
+5000
+51
+if ifs;
+Select ifs pattern ifs(_)
+SyntaxError
+5000
+52
+if ifs;
+Select ifs pattern ifs(_,_)
+SemanticError
+5000
+53
+if ifs;
+Select ifs pattern ifs(_,_,_,_)
+SyntaxError
+5000
+

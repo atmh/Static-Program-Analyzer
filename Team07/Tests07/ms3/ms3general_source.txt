@@ -1,0 +1,484 @@
+procedure Test1{
+  procedure = 5;
+  Test1 = 5*8 + x*y-z      + t;
+  if ((v3z==var4)||(while!=var6)) then{
+    if ((v3z<=var4)||(var5!=(xx+yy*zz+tt*dd))) then{
+      var4 = v3z;
+      var5 = t +      	333  + 33 *z + ((x*y) *k);} else{
+      procedure = 10;}
+    Test1 = t*m+n;} else{
+    while(x!=while) {
+      print 	x;
+      print y;}
+    z = x               * y + procedure * Test1 / v3z * var4 + var5;}
+  read procedure;
+  read Test1;
+	while (Test1!=procedure){
+		read t;
+		read d;
+	}
+  if ((then==11) &&(else>29673)) then{
+		print if;
+		read y;
+		while (procedure!=Test1){
+			Test1 = procedure;}
+    x = y;} else{
+    while(y!=x){
+			y = x;
+			if (y!=x) then{
+				read else; } else{
+				print var9;}}
+		x = y;}}
+
+
+procedure Test2{
+  procedure = 5;
+  Test1 = 5*8 + x*y-z      + t;
+  if ((v3z==var4)||(while!=var6)) then{
+    if ((v3z<=var4)||(var5!=(xx+yy*zz+tt*dd))) then{
+      var4 = v3z;
+      var5 = t +      	342708  + 961245 *z + ((x*y) *k);} else{
+      procedure = 10;}
+    Test1 = t*m+n;} else{
+    while(x!=while) {
+      print 	x;
+      print y;}
+    z = x               * y + procedure * Test1 / v3z * var4 + var5;}
+  read procedure;
+  read Test1;
+	while (Test1!=procedure){
+		read t;
+		read d;
+	}
+  if ((then==412) &&(else>29673)) then{
+		print if;
+		read y;
+		while (procedure!=Test1){
+			Test1 = procedure;}
+    x = y;} else{
+    while(y!=x){
+			y = x;
+			if (y!=x) then{
+				read else; } else{
+				print var9;}}
+		x = y;}}
+
+procedure B {
+    print procedure;
+}
+
+procedure a {
+    call b;
+}
+
+procedure b {
+    call c;
+}
+
+procedure c {
+    call d;
+}
+
+procedure d {
+    call e;
+}
+
+procedure e {
+    call f;
+}
+
+procedure f {
+    call g;
+}
+
+procedure g {
+    call h;
+}
+
+procedure h {
+    call i;
+}
+
+procedure i {
+    call j;
+}
+
+procedure j {
+    call k;
+}
+
+procedure k {
+    call l;
+}
+
+procedure l {
+    call m;
+}
+
+procedure m {
+    call n;
+}
+
+procedure n {
+    call o;
+}
+
+procedure o {
+    call p;
+}
+
+procedure p {
+    call q;
+}
+
+procedure q {
+    call r;
+}
+
+procedure r {
+    call s;
+}
+
+procedure s {
+    call t;
+}
+
+procedure t {
+    call u;
+}
+
+procedure u {
+    call v;
+}
+
+procedure v {
+    call w;
+}
+
+procedure w {
+    call x;
+}
+
+procedure x {
+    call y;
+}
+
+procedure y {
+    call z;
+}
+
+procedure z {
+    call a1;
+}
+
+procedure a1 {
+    call b1;
+}
+
+procedure b1 {
+    call c1;
+}
+
+procedure c1 {
+    call d1;
+}
+
+procedure d1 {
+    call e1;
+}
+
+procedure e1 {
+    call f1;
+}
+
+procedure f1 {
+    call g1;
+}
+
+procedure g1 {
+    call h1;
+}
+
+procedure h1 {
+    call i1;
+}
+
+procedure i1 {
+    call j1;
+}
+
+procedure j1 {
+    call k1;
+}
+
+procedure k1 {
+    call l1;
+}
+
+procedure l1 {
+    call m1;
+}
+
+procedure m1 {
+    call n1;
+}
+
+procedure n1 {
+    call o1;
+}
+
+procedure o1 {
+    call p1;
+}
+
+procedure p1 {
+    call q1;
+}
+
+procedure q1 {
+    call r1;
+}
+
+procedure r1 {
+    call s1;
+}
+
+procedure s1 {
+    call t1;
+}
+
+procedure t1 {
+    call u1;
+}
+
+procedure u1 {
+    call v1;
+}
+
+procedure v1 {
+    call w1;
+}
+
+procedure w1 {
+    call x1;
+}
+
+procedure x1 {
+    call y1;
+}
+
+procedure y1 {
+    call z1;
+}
+
+procedure z1 {
+    print a;
+}
+
+procedure f1rStNam3 {
+    call while;
+    print A0A;
+    while (A0A == a0a) {
+        a0a = A0A - 1024;
+        if (A0A == print) then {
+            call while;
+            A0A = a0a + 2048;
+            print read;
+        } else {
+            print A0A;
+            A0A = 1024 * 1024/while ;
+            read a0a;
+            if (A0A == a0a) then {
+                a0a = A0A + 1024;
+                read A0A;
+            } else {
+                print = read;
+                read print;
+                print = 1024 * 3069/while +40-41*43/44%45+46-47;
+            }
+            print read;
+            print = 40-41*43/44 - print;
+            print = 43/(44)%45;
+            print = 46-47 + 44%45;
+        }
+    }
+    print A0A;
+    call story;
+}
+
+procedure while {
+    while (x >= 1024) {
+        read A0A;
+        read = 1024;
+        print read;
+    }
+    while (read == print) {
+        A0A = read;
+        read A0A;
+        print A0A;
+        if (read == print) then {
+            call xmethod;
+            A0A = read % (A0A + 1024 / 1024);
+        } else {
+            read = print;
+            call story;
+        }
+    }
+}
+
+procedure story {
+    if (y == x) then {
+        read a0a;
+        print l201;
+    } else {
+        read l201;
+        while ((1*2-3>=4%5/Dvar1)||((!(6==(7+8)))&&(9<=10))) {
+            print print;
+        }
+        while ((11*12-13>=14%15/16)||((!(17==(18+19)))&&(20<=21))) {
+            print a0a;
+        }
+        read l201;
+        print l201;
+        call xmethod;
+    }
+}
+
+procedure xmethod {
+    Dvar1 = 0;
+    print while;
+    print hya;
+    Dvar1 = Dvar1;
+    read hya;
+    read while;
+    hya = Dvar1;
+}
+
+procedure maple2 {
+    while (3069 - eVar == evar + 3) {
+        Gvar1 = 2048;
+        call l201;
+        Gvar1 = Gvar1;
+        while (eVar == evar) {
+            if(eVar == evar)then{
+                eVar = Gvar1 / evar + 2048;
+            }else{
+                read eVar;
+                evar = eVar - 3069 / 2048;
+                read Gvar1;
+            }
+        }
+        call while;
+    }
+    call maple;
+    call maple;
+    call maple;
+    call maple;
+    call maple;
+    call maple;
+    call maple;
+}
+
+procedure l201 {
+    call gnar;
+    if (1024 == Gvar2) then {
+        while(Gvar1 == Gvar2) {
+            Gvar1 = 1024/1024 - Gvar1;
+            read Gvar1;
+            Gvar1 = 1024/1024 - Gvar1;
+        }
+        Gvar1 = 1024/3069 * (Gvar1 - Gvar2 / 2048) % 1024;
+        if (1024 == 1024) then {
+            Gvar1 = 1024/3069 * ((Gvar1 - (Gvar2 / 2048))) % (1024);
+        } else {
+            Gvar2 = (Gvar2 / ((1024)));
+            while (Gvar1 == Gvar2) {
+                Gvar2 = Gvar2 / 1024 % 1024;
+                Gvar1 = (1024/3069 * (Gvar1 - Gvar2 / 2048) % 1024);
+                read Gvar1;
+            }
+        }
+    } else {
+        Gvar3 = ((((1024/(1024)))));
+        print Gvar3 ;
+        Gvar3 = Gvar3 - Gvar2;
+        read Gvar3;
+        Gvar3 = Gvar3 * Gvar3 - Gvar2;
+    }
+}
+
+procedure gnar {
+    h6 = h1;
+    h1 = h2;
+    h2 = h3;
+    h3 = h4;
+    h4 = h5;
+    h5 = h6;
+    print hya;
+}
+
+procedure isolated {
+    print l20;
+    l20 = l20;
+    read l20;
+    if (b*l202-l203<l204%l205/l206) then {
+        b = l20 + 40-(41*43)/(44%45+46)-47;
+        while ((!(69!=(70+71)))&&(72<=73-x4)) {
+             l20 = 94 * (94) % l20;
+             b= 94 * (94  % l20);
+             l202= (94 * 94)  % l20;
+        }
+        print b;
+        read b;
+    } else {
+        while (0 < (((74+x)*76)+77)-(78+(79/(v+81)))) {
+            x = 94 - v;
+            v = 94 - v + v;
+        }
+    }
+}
+
+procedure maple {
+    if ((((74+75)*76)+77)-(78+(79/(80+81))) > 0) then {
+        b1 = (((74+75)*76)+77)-(78+(79/(80+81))) % b;
+        b = (((74+75)*76)+77) % l202;
+        l202 = (((74+75)*76)) % l203;
+        l203 = (((74+75))) % l204;
+        l204 = (((74))) % l205;
+    } else {
+        l205 = (((75))) % l206;
+        l206 = (78+(79/(80+81))) % x;
+        x = ((79/(80+81))) % v;
+        v = (((80+81))) % l209;
+        l209 = (((80))) % b0;
+        b0 = (((81))) % b1;
+    }
+    read l209;
+}
+
+procedure j4gU4rr {
+    if (! (else+(101-(102*(103/(104%105))))>(if) )) then {
+        assign = a;
+        if = ifs;
+    } else {
+        a = assign;
+        ifs = if;
+    }
+    if (! (106+(while-(107*(108/(109%then))))>(110) )) then {
+        while = w;
+    } else {
+        w = while;
+    }
+    while (!(111+(112-(print*(read/(call%113))))>(114) )) {
+        pn = print;
+        r = read;
+        cl = call;
+    }
+    if ((procedure != variable) && (proc == var)) then {
+        proc = p;
+        p = procedure;
+    } else {
+        var  =  v ;
+        v = variable;
+    }
+}

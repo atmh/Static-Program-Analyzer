@@ -1,0 +1,95 @@
+1 - Follows: stmt, read
+stmt s; read r;
+Select s such that Follows(s, r)
+4, 9, 15
+5000
+2 - Follows: stmt, call
+stmt s; call c;
+Select s such that Follows(s, c)
+3, 6, 11
+5000
+3 - Follows: stmt, print
+stmt s; print p;
+Select s such that Follows(s, p)
+5, 10, 16, 20, 22
+5000
+4 - Follows*: stmt, read
+stmt s; read r;
+Select s such that Follows*(s, r)
+4, 9, 14, 15
+5000
+5 - Follows*: stmt, call
+stmt s; call c;
+Select s such that Follows*(s, c)
+1, 2, 3, 4, 5, 6, 9, 10, 11
+5000
+6 - Follows*: stmt, print
+stmt s; print p;
+Select s such that Follows*(s, p)
+4, 5, 9, 10, 14, 15, 16, 20, 22
+5000
+7 - Parent: stmt, read
+stmt s; read r;
+Select s such that Parent(s, r)
+3, 8, 13
+5000
+8 - Parent: stmt, print
+stmt s; print p;
+Select s such that Parent(s, p)
+3, 8, 13
+5000
+9 - Parent: stmt, assign
+stmt s; assign a;
+Select s such that Parent(s, a)
+3, 8, 13
+5000
+10 - Parent: stmt, call
+stmt s; call c;
+Select s such that Parent(s, c)
+3, 8
+5000
+11 - Parent: stmt, while
+stmt s; while w;
+Select s such that Parent(s, w)
+3
+5000
+12 - Parent*: stmt, read
+stmt s; read r;
+Select s such that Parent*(s, r)
+3, 8 , 13
+5000
+13 - Parent*: stmt, print
+stmt s; print p;
+Select s such that Parent*(s, p)
+3, 8, 13
+5000
+14 - Parent*: stmt, assign
+stmt s; assign a;
+Select s such that Parent*(s, a)
+3, 8, 13
+5000
+15 - Parent*: stmt, call
+stmt s; call c;
+Select s such that Parent*(s, c)
+3, 8
+5000
+16 - Parent*: stmt, while
+stmt s; while w;
+Select s such that Parent*(s, w)
+3
+5000
+17 - Follows: stmt, _
+stmt s;
+Select s such that Follows(s, _)
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 16, 17, 20, 22
+5000
+18 - Follows: while, wildcard
+while w;
+Select w such that Follows(w, _)
+3, 8
+5000
+19 - Parent: while, wildcard
+while w;
+Select w such that Parent(w, _)
+3, 8, 13
+5000

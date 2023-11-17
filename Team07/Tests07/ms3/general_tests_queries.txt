@@ -1,0 +1,220 @@
+1
+read re; assign a;
+Select a such that Follows(re, a)
+26
+5000
+2
+read re; assign a;
+Select a such that Follows(a, re)
+15,23
+5000
+3
+read re; assign a;
+Select a such that Follows*(re, a)
+10,18,19,20,21,26
+5000
+4
+read re; assign a;
+Select a such that Follows*(a, re)
+13,14,15,23
+5000
+5
+read re; call ca;
+Select re such that Parent(re, ca)
+none
+5000
+6
+read re; call ca;
+Select re such that Parent(ca, re)
+none
+5000
+7
+read re; call ca;
+Select ca such that Parent*(re, ca)
+none
+5000
+8
+read re; call ca;
+Select ca such that Parent*(ca, re)
+none
+5000
+9
+print pn; variable v;
+Select pn such that Uses(pn, v)
+12,2,22,32,33,39,53,54,55,56,8
+5000
+10
+stmt s; variable v;
+Select s such that Uses(s, v)
+10,11,12,13,14,15,17,2,20,21,22,26,27,28,29,3,31,32,33,34,35,36,37,39,4,41,42,47,48,5,53,54,55,56,6,8,9
+5000
+11
+print pn; variable v;
+Select v such that Modifies(pn, v)
+none
+5000
+12
+stmt s; variable v;
+Select s such that Modifies(s, v)
+1,10,11,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,3,30,31,34,35,36,37,38,4,40,41,42,43,44,45,46,47,48,49,5,50,51,52,6,7,9
+5000
+13
+while w; if ifs; assign a; print pn; call c;
+Select pn such that Next(a,_)
+12,2,22,32,33,39,53,54,55,56,8
+5000
+14
+while w; if ifs; assign a; print pn; call c;
+Select w such that Next*(w,_)
+11,27,36,4,47
+5000
+15
+while w; if ifs; assign a; print pn; call c;
+Select a such that Affects(a,_)
+10,13,15,18,19,20,21,30,31,5
+5000
+16
+while w; if ifs; assign a; print pn; call c;
+Select a pattern a(_,_"b"_) such that Next(a,_)
+10,14,15,21,34
+5000
+17
+while w; if ifs; assign a; print pn; call c;
+Select a pattern a(_,_"b"_) such that Affects(a,_)
+10,15,21
+5000
+18
+while w; if ifs; assign a; print pn; call c;
+Select a pattern a(_,_"x"_) such that Uses(pn,_)
+20,21
+5000
+19
+constant c;
+Select c
+0,10,10129423095823094854902348012384091,21394051273503492810293,3280951823400,351423,3901248230583904583204,5,504,5040,5049,5470,700,7500,7980,8124,9812349012859023485
+5000
+20
+variable v;
+Select v
+a,abs,asdsakdlfjsflkgjslkjfadlskfss,avxslsdfkklsdjgsalkfdafjlkasdf,b,c,d,e,f,g,p,q,x,y
+5000
+21
+stmt s;
+Select s
+1,10,11,12,13,14,15,16,17,18,19,2,20,21,22,23,24,25,26,27,28,29,3,30,31,32,33,34,35,36,37,38,39,4,40,41,42,43,44,45,46,47,48,49,5,50,51,52,53,54,55,56,6,7,8,9
+5000
+22
+read re;
+Select re
+1,16,24,25,38,49,50,51,52,7
+5000
+23 - Select all print
+print pn;
+Select pn
+12,2,22,32,33,39,53,54,55,56,8
+5000
+24
+call c;
+Select c
+17,3,37,9
+5000
+25
+while w;
+Select w
+11,27,36,4,47
+5000
+26
+if ifs;
+Select ifs
+29,35,48,6
+5000
+27
+assign a;
+Select a
+10,13,14,15,18,19,20,21,23,26,28,30,31,34,40,41,42,43,44,45,46,5
+5000
+28
+procedure p;
+Select p
+a,b,c
+5000
+29
+stmt s, s1;
+Select s.stmt# such that Follows* (s, s1) with s1.stmt#=10
+7,8,9
+5000
+30
+while w1, w2; assign a;
+Select <w1, w2> such that Parent* (w1, a) and Parent* (w1, w2)
+4 11,4 27
+5000
+31
+assign a; while w; stmt s;
+Select a such that Parent* (w, a) and Next* (_, s) pattern a("x", _) with a.stmt# = s.stmt#
+18,26
+5000
+32
+assign a; stmt s;
+Select BOOLEAN with a.stmt# = s.stmt#
+TRUE
+5000
+32
+assign a; print pn;
+Select BOOLEAN with a.stmt# = pn.stmt#
+FALSE
+5000
+33
+stmt s; assign a;
+Select s with s.stmt# = a.stmt#
+10,13,14,15,18,19,20,21,23,26,28,30,31,34,40,41,42,43,44,45,46,5
+5000
+34
+read re;
+Select BOOLEAN with re.stmt# = 16
+TRUE
+5000
+35
+print pn;
+Select BOOLEAN with pn.stmt# = 2
+TRUE
+5000
+36
+call c;
+Select BOOLEAN with c.stmt# = 18
+FALSE
+5000
+37
+while w;
+Select BOOLEAN with w.stmt# = 4
+TRUE
+5000
+38
+if ifs;
+Select BOOLEAN with ifs.stmt# = 6
+TRUE
+5000
+39
+assign a;
+Select BOOLEAN with a.stmt# = 26
+TRUE
+5000
+40
+procedure p, q; variable v;
+Select <p, q, v> such that Modifies(p, v) and Calls(p, q)
+a b a,a b b,a b c,a b d,a b e,a b q,a b x,a b y,a c a,a c b,a c c,a c d,a c e,a c q,a c x,a c y,b c a,b c b,b c c,b c d
+5000
+41
+assign a1, a2; variable v;
+Select v pattern a1(v, _) such that Affects(a1, a2) and Uses(a2, v)
+a,b,c,e,q,x,y
+5000
+42
+if ifs; variable v;
+Select v pattern ifs(v, _, _)
+a,b,c
+5000
+43
+while w; variable v;
+Select <w, v> pattern w(v, _)
+11 p,11 q,27 a,36 b,4 avxslsdfkklsdjgsalkfdafjlkasdf,47 a
+5000

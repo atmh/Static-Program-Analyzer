@@ -1,0 +1,253 @@
+procedure proc1 { 
+    call = 10000 - 10;
+    assign = 20 - 30 * 40;
+    print call;
+    print Call;
+    print read;
+    print Read;
+    read While;
+    if (((if > If) && (y < then)) || (if == Then)) then {
+        print if;
+    } else {
+        y = print;
+    }
+    if ((else > elseif) || (else >= read)) then {
+        while ((if > 0) && (while == call)) {
+            if ((while < 6) && (else > read)) then {
+                if ((assign == 3) || (z == print)) then {
+                    read abcdefg;
+                    goodbye = 3;
+                } else {
+                    while (while < 0) {
+                        while = if * (then + 1) % 100000;
+                    }
+                    hello = proc3 - 4;
+	            call proc2;
+                }
+            } else {
+                While = While + 3213;
+            }
+        }
+    } else {
+        While = While / 54 * 5;
+    }
+    while (pattern > 1) {
+        while (Pattern != 123) {
+            if (then == else) then {
+                print if;
+                if = if + (0 + y);
+            } else {
+                 read if;
+            }
+            while (w < p) {
+                print h;
+            }
+        }
+    }
+}
+
+procedure proc2 {
+    if (
+    (!((xxx + 1) * yyy / (200000-3) % zzz < 1 + 2)) 
+    && (( a - b != 4 + 10 )
+    || (!(c/d >= 10000000 + 0 )))
+    ) then {
+        read call;
+        read print;
+        while (call < 3) { 
+            print call;
+        }
+    } else {
+        if (LOW < HI) then {
+            LOW = LOW  +  1;
+        } else {
+            HI = proc2 / 2;
+        }
+    }
+}
+
+procedure proc3 {
+    x = y + 1;
+    y = y + 2;
+    while ((Yyy == 1) || (yyY <= 2) ) {
+        read x;
+        call proc2;
+        if (yYy > 1) then {
+            x = 1;
+
+            if (xXx > 10) then {
+                z = 10;
+            } else {
+		        print z;
+                read z;
+                read x;
+                
+                if ((xxX < 1) && (Xxx > 10)) then {
+                    c = 10;
+                } else {
+                    read z;
+                }
+                
+                if (yyy > xxx) then {
+                    print y;
+                } else {
+                    print z;
+                }
+
+                print z;
+                while (zzz > xx) {
+                    print z;
+                    z = z - 1;
+                }
+
+                while (pop < bye) {
+                    x = y + 1;
+                }
+
+                while (pie > xx) {
+		            y = x + 1;
+                }
+
+                if (x == 1) then {
+                    print y;
+                } else {
+                    x = 1;
+                }
+		        x = 1 + 1;
+            }
+
+            read x;
+            while ((ab * cd / eg + jk) >= 14) {
+
+                while (!(good == hte)) {
+                    if (5 != x) then {
+                        x = 1 + 1;
+                    } else {
+                        b = 1 + 1;
+                    }
+                    read c;
+                    read print;
+                    a = c * 18;
+                }
+                print b;
+
+                if (while < lo) then {
+                    while (bo < po) {
+                        read b;
+                    }
+                } else {
+                    read a;
+                }
+            }
+            read x;
+            a = b - c;
+        } else {
+            while (zzz > 8) {
+                x = z + 10;
+                x = 1 + 2 + (kk + b * c);
+                if (kk > 555) then {
+                    print x;
+                    x = 1; 
+		} else {
+                    print y;
+                }
+            }
+        }
+        read y;
+        print x;
+    }
+
+    if (poi < loi) then {
+        y = 1;
+    } else {
+	x = 1;
+    }
+
+    while (koi <= 3333) {
+	a = 1 + 2;
+    }
+
+    call proc2;
+}
+
+procedure proc4 {
+    while (d > 1) {
+        if ((e > 1) && (d > 1)) then {
+            z = x * 3;
+            if (f <= 10) then {
+                z = x + y;
+            } else {
+                call proc2;
+            }
+            print x;
+            while ((g / 20) <= 110) {
+                while (!(h == i + while)) {
+                    if (k % l != m) then {
+                        a = b + 3;
+                    } else {
+                        a = b + 4;
+                    }
+                }
+            }
+            call proc2;
+            read x;
+            print CALL;
+            read while;
+            a = b - c % 26;
+        } else {
+            while (n < 8) {
+                x = x + y + (a + b * c) * 290 * 290;
+            }
+        }
+        read y;
+        print x;
+        call proc3;
+    }
+
+    if (o == p) then {
+        a = a + 41;
+        var = var + (x + y) + a - (z / 2 - (z * 2));
+        print var;
+    } else {
+        b = 54321 * 99 % c;
+        read b;
+        if (q == r) then {
+            b = b + 47 - (z * 2);
+        } else {
+            read = print;
+            print = read + if - while * assign / call;
+        }
+        x = 11 + ((((12)))) % 13;
+    }
+
+    call proc2;
+    a = x * y + b;
+}
+
+procedure proc5 {
+    abc = 100;
+    read x;
+    read YYYY;
+    while (abdefg >= 0) {
+        if (0 <= 3) then {
+            print x;
+	    while (y >= 5) {
+                while (x < 100) {
+                    y = y + 10;
+                    if (! ((A < B) || ((C == 4) && (D != E))) ) then {
+                        print d;
+                    } else {
+                        read l;
+                    }
+		}
+            }
+        } else {
+            x = 10234;
+            print while;
+            print While;
+            print if;
+            read If;
+        }
+        x = YYYY % 1;
+    }
+}
